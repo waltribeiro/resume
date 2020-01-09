@@ -3,17 +3,6 @@
   margin: 0;
 }
 
-html {
-  height: 100%;
-}
-
-body {
-  width: 100%;
-  height: 100%;
-  font-family: 'Source Code Pro', monospace;
-  background-image: linear-gradient(to bottom, #ff0000, #0000ff);
-}
-
 a {
   color: rgb(59, 241, 99);
   text-decoration: none;
@@ -23,73 +12,32 @@ a:hover {
   color: grey;
 }
 
-.navigation {
-  background-color: lightgreen;
-  font-family: "Helvetica";
-  text-transform: uppercase;
-  font-size: 30px;
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Source Code Pro', monospace;
+  background-image: linear-gradient(to bottom, #ff0000, #0000ff);
 }
 
-.certificateText {
-  background-color: lightgreen;
-  font-family: "Helvetica";
-  text-transform: uppercase;
-  font-size: 30px;
-  color: #000000;
+div.p {
+  text-align: center;
+  color: red;
 }
 
 h2 { 
   position: center;
   top: 100px;
   left: 20px;
-  font-size: 4rem;
+  font-size: 3rem;
   width: 50%;
   color: rgb(55, 225, 255);
   text-shadow: 3px 3px #000000;
 }
 
-#linkedin {
-  background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%)
+html {
+  height: 100%;
 }
 
-#linkedin:hover {
-  background-position: right center;
-  background-image: linear-gradient(to right, #7fa516 0%, #088d70 51%, #3f1a34 100%)
-}
-
-.wrapper {
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-.circle {
-  width: 100px;
-  padding: 50px 0;
-  line-height: 0;
-  margin: 60px auto;
-  background-color: #ffc0cb;
-  color: #ffffff;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: transform 0.5s;
-  background: #fa8072;
-  text-align: center;
-}
-
-.github {
-  width: 100px;
-  padding: 0px 0px;
-  line-height: 0;
-  margin: 0px auto;
-  cursor: pointer;
-  transition: transform 0.2s ease-out;
-}
-
-img:hover {  
-  color: #351212;
-  transform: rotate(20deg) scale(0.8);
-}
 
 .certificateRow {
   width: 10%;
@@ -111,8 +59,61 @@ img:hover {
   -ms-transform: rotate(0deg);
 }
 
-div.p {
-  text-align: center;
-  color: red;
+.headingText {
+  background-color: rgb(0, 0, 0);
+  font-family: "Helvetica";
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #ffffff;
 }
-/* here /////////////////////////// */
+
+.circle {
+  width: 100px;
+  padding: 50px 0;
+  line-height: 0;
+  margin: 60px auto;
+  background-color: #ffc0cb;
+  color: #ffffff;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.5s;
+  background: #fa8072;
+  text-align: center;
+}
+
+.navigation {
+  background-color: lightgreen;
+  font-family: "Helvetica";
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+#linkedin {
+  background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%)
+}
+
+#linkedin:hover {
+  background-position: right center;
+  background-image: linear-gradient(to right, #7fa516 0%, #088d70 51%, #3f1a34 100%)
+}
+
+.github {
+  width: 100px;
+  padding: 0px 0px;
+  line-height: 0;
+  margin: 0px auto;
+  cursor: pointer;
+  transition: transform 0.2s ease-out;
+}
+
+.imageFunction{
+  margin-left: auto;
+  margin-right: auto;
+  width:60px;
+}
+
+.projectImage{
+  width:300px;
+  vertical-align: text-top;
+  margin-left: 25px;
+}
