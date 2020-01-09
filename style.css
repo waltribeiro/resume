@@ -19,23 +19,14 @@ body {
   background-image: linear-gradient(to bottom, #ff0000, #0000ff);
 }
 
-div.p {
-  text-align: center;
-  color: red;
-}
-
-h2 { 
-  position: center;
+.topText { 
+  position: none;
   top: 100px;
   left: 20px;
   font-size: 3rem;
   width: 50%;
   color: rgb(55, 225, 255);
   text-shadow: 3px 3px #000000;
-}
-
-html {
-  height: 100%;
 }
 
 .certificateRow {
@@ -64,49 +55,14 @@ html {
   text-transform: uppercase;
   font-size: 30px;
   color: #ffffff;
-}
-
-.circle {
-  width: 100px;
-  padding: 50px 0;
-  line-height: 0;
-  margin: 60px auto;
-  background-color: #ffc0cb;
-  color: #ffffff;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: transform 0.5s;
-  background: #fa8072;
-  text-align: center;
-}
-
-.navigation {
-  background-color: lightgreen;
-  font-family: "Helvetica";
-  text-transform: uppercase;
-  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 #certificates {
   background-color: #E91E63;
-}
-
-#linkedin {
-  background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%)
-}
-
-#linkedin:hover {
-  background-position: right center;
-  background-image: linear-gradient(to right, #7fa516 0%, #088d70 51%, #3f1a34 100%)
-}
-
-.github {
-  width: 100px;
-  padding: 0px 0px;
-  line-height: 0;
-  margin: 0px auto;
-  cursor: pointer;
-  transition: transform 0.2s ease-out;
 }
 
 .imageFunction{
