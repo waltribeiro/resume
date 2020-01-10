@@ -1,91 +1,128 @@
 * {
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: rgb(59, 241, 99);
-  text-decoration: none;
-}
-
-a:hover {
-  color: grey;
+  padding : 0;
+  margin  : 0;
 }
 
 body {
-  width: 100%;
-  height: 200%;
-  font-family: 'Source Code Pro', monospace;
-  background-image: linear-gradient(to bottom, #eb5454, #6868f7);
+  width            : 100%;
+  height           : 120%;
+  font-family      : 'Source Code Pro', monospace;
+  background-color : #222222;
+}
+
+a {
+  color           : #3bf163;
+  text-decoration : none;
+}
+
+a:hover {
+  color : grey;
 }
 
 .topText { 
-  position: none;
-  top: 100px;
-  left: 20px;
-  font-size: 3rem;
-  width: 50%;
-  color: rgb(55, 225, 255);
-  text-shadow: 3px 3px #000000;
+  position    : relative;
+  top         : 20px;
+  font-size   : 24px;
+  width       : 70%;
+  color       : #37e1ff;
+  text-shadow : 2px 2px #000000;
 }
 
 .certificateRow {
-  width: 10%;
-  margin: 10px;
-  background-color: #E91E63;
-  transition: all 0.35s ease-in-out;
+  width            : 7%;
+  margin           : 10px;
+  background-color : #E91E63;
+  transition       : all 0.35s ease-in-out;
 }
 
 .certificateRow:hover {
-  transform: rotate(0deg) scale(1.3);
-  transition: 0.30s;
-  -webkit-transition: 0.30s;
-  -moz-transition: 0.30s;
-  -ms-transition: 0.30s;
-  -o-transition: 0.30s;
-  -webkit-transform: rotate(0deg) scale(1.3);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
+  transform          : rotate(0deg) scale(1.3);
+  transition         : 0.30s;
+  -webkit-transition : 0.30s;
+  -moz-transition    : 0.30s;
+  -ms-transition     : 0.30s;
+  -o-transition      : 0.30s;
+  -webkit-transform  : rotate(0deg) scale(1.3);
+  -moz-transform     : rotate(0deg);
+  -o-transform       : rotate(0deg);
+  -ms-transform      : rotate(0deg);
 }
 
-.description {
-  color: aqua;
-}
-
-.description:hover {
-  color: purple;
-}
-
-.headingText {
-  background-color: rgb(0, 0, 0);
-  font-family: "Helvetica";
-  text-transform: uppercase;
-  font-size: 30px;
-  color: #ffffff;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-top: 20px;
+.headerText {
+  background-color : rgb(0, 0, 0);
+  font-family      : 'Source Code Pro';
+  text-transform   : uppercase;
+  font-size        : 24px;
+  color            : #ffffff;
+  padding-left     : 20px;
+  padding-right    : 20px;
+  padding-bottom   : 20px;
+  padding-top      : 20px;
 }
 
 .imageFunction{
-  margin-left: auto;
-  margin-right: auto;
-  width:60px;
+  margin-left  : auto;
+  margin-right : auto;
+  width        : 60px;
 }
 
 .projectImage {
-  width:300px;
-  vertical-align: text-top;
-  margin-left: 25px;
-  margin-top: 25px;
-  opacity:0.7;
+  width          : 300px;
+  vertical-align : text-top;
+  margin-left    : 25px;
+  margin-top     : 25px;
+  opacity        : 1.0;
 }
 
 .projectImage:hover {
-  opacity:1;
-  filter: grayscale(0%);
+  opacity : 1;
+  filter  : grayscale(0%);
+}
+
+.projectsInline { 
+  display        : inline-block; 
+  margin-left    : 30px;
+  margin-top     : 10px;
+  color          : #ffffff;
+  vertical-align : top;
+  font-weight    : 100;
+  }
+
+strong {
+  font-weight : 1000;
+}
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+.hidden {
+  opacity : 0;
+}
+.console-container {
+ 
+  font-family : 'Source Code Pro';
+  text-align  : center;
+  display     : inline;
+  position    : relative;
+  color       : #ff0062;
+  top         : 0;
+  bottom      : 0;
+  left        : 0;
+  right       : 0;
+  margin      : auto;
+}
+.console-underscore {
+  display  : inline;
+  position : relative;
+  top      : -0.14em;
+  left     : 10px;
 }
 
 
@@ -100,33 +137,22 @@ body {
 
 
 
-/*
-.box_item{
-	width: 400px;
-	height: 400px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-family: 'Open Sans';
-	font-size: 30px;
-	font-weight: 800;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-image: url(../images/cat.jpg);
-	background-size: cover;
-	color: white;
-	padding: 20px;
-}
+.example_d {
+  color          : #3bf163 !important;
+  text-transform : uppercase;
+  background     : #222222;
+  padding        : 10px;
+  border         : 4px solid #3bf163 !important;
+  border-radius  : 6px;
+  display        : inline-block;
+  transition     : all 0.3s ease 0s;
+  }
 
-.box_item:hover{
-	font-size: 0;
-}
 
-.box_item:hover:after{
-	content: attr(data-hover);
-	font-size: 24px;
-	line-height: 28px;
-	font-weight: 200;
-	text-align: center;
-}
-*/
+.example_d:hover {
+  color         : #000000 !important;
+  border-radius : 150px;
+  border-color  : #3bf163 !important;
+  transition    : all 0.3s ease 0s;
+  background    : #3bf163;
+  }
