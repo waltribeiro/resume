@@ -7,7 +7,7 @@ function myFunction() {
 
 
   // function([string1, string2],target id,[color1,color2])    
- consoleText(['REACT', 'SQL', 'Python', 'Analytics', 'MongoDB', 'Express', 'Audio'], 'text',['tomato','#6f00ff','lightblue','#d9ff00']);
+ consoleText(['REACT', 'SQL', 'Python', 'Analytics', 'MongoDB', 'Express', 'Javascript', 'Audio'], 'text',['#ffd000','#83d2ff','#cd83ff','#ff8383']); // yellow = #ffd000 blue = #83d2ff purple = #cd83ff red = #ff8383
 
  function consoleText(words, id, colors) {
    if (colors === undefined) colors = ['#fff'];
