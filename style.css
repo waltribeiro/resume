@@ -5,9 +5,7 @@
 
 body {
   width            : 100%;
-  height           : 120%;
   font-family      : 'Helvetica', monospace;
-  background-color : #222222;
 }
 
 a {
@@ -20,11 +18,13 @@ a:hover {
 }
 
 footer {
-  color       : #ffffff;
-  margin-left : 20px;
-  margin-top : 20px;
-  width : 70%;
-  text-align: center;
+  color            : #ffffff;
+  padding-left     : 20px;
+  padding-top      : 20px;
+  height           : 50px;
+  width            : 100%;
+  text-align       : center;
+  background-color : black;
 }
 
 img {
@@ -48,21 +48,21 @@ span.stuff {
 blockquote {
   color       : #ffffff;
   background-color: #575757;
-  font-weight : 400;
-  width       : 70%;
+  font-weight : 100;
+  width       : 100%;
   text-align: center;
   height: 50px;
   padding-top: 10px;
 }
 
 .topText { 
-  position    : relative;
-  top         : 20px;
-  font-size   : 24px;
-  width       : 70%;
-  color       : #37e1ff;
-  text-shadow : 2px 2px #000000;
-  padding-left: 14px;
+  position         : none;
+  font-size        : 24px;
+  width            : 100%;
+  text-shadow      : 2px 2px #000000;
+  background-color : #000000;
+  padding          : 10px;
+  height           : 30px;
 }
 
 .certificateRow {
@@ -96,7 +96,7 @@ blockquote {
   padding-bottom   : 10px;
   padding-top      : 10px;
   text-align: center;
-  width: 70%;
+  width: 100%;
 }
 
 .imageFunction {
@@ -133,9 +133,10 @@ blockquote {
 
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 
-.hiddens {
+.hidden {
   opacity : 0;
 }
+
 .console-container {
  
   font-family : 'Helvetica';
@@ -149,11 +150,12 @@ blockquote {
   right       : 0;
   margin      : auto;
 }
+
 .console-underscore {
   display  : inline;
   position : relative;
-  top      : -0.14em;
-  left     : 10px;
+  top      : 0em;
+  left     : 0px;
 }
 
 
