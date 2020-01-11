@@ -230,11 +230,11 @@
 
 <div class="headerText">CERTIFICATIONS</div>
 
-<div class="certificationsAll" id="certificationsAll">
+<a href="#certifications">
 
-    <a href="#certifications">
+<div class="certsSmallAll" id="certsSmallAll">
 
-    <div class="certificationsLeftSide">
+    <div class="certsSmall">
         <img
         width="100px"
         src="images/certificate-biamp-tesiraforte.jpg"
@@ -244,7 +244,7 @@
         />
     </div>
 
-    <div class="certificationsLeftSide">
+    <div class="certsSmall">
         <img
         width="100px"
         src="images/certificate-clearone.jpg"
@@ -254,7 +254,7 @@
         />
     </div>
 
-    <div class="certificationsLeftSide">
+    <div class="certsSmall">
         <img
         width="100px"
         src="images/certificate-qsys-control-101.jpg"
@@ -264,7 +264,7 @@
         />
     </div>
     
-    <div class="certificationsLeftSide"> 
+    <div class="certsSmall"> 
         <img
         width="100px"
         src="images/certificate-osha-walt-ribeiro-scissor-lift-aerial-safety.jpg" alt="certificate-osha-walt-ribeiro-scissor-lift-aerial-safety.jpg" title="certificate-osha-walt-ribeiro-scissor-lift-aerial-safety.jpg"
@@ -272,7 +272,7 @@
         />
     </div>
 
-    <div class="certificationsLeftSide">
+    <div class="certsSmall">
         <img
         width="100px"
         src="images/certificate-biamp-voip.jpg"
@@ -282,7 +282,7 @@
         />
     </div>
 
-    <div class="certificationsLeftSide">
+    <div class="certsSmall">
         <img
         width="100px"
         src="images/certificate-qsys-video-101.jpg"
@@ -292,7 +292,7 @@
         />
     </div>
 
-    <div class="certificationsLeftSide">
+    <div class="certsSmall">
         <img
         width="100px"
         src="images/certificate-qsys-level-1.jpg"
@@ -301,14 +301,14 @@
         onclick="showImage('certificate-qsys-level-1.jpg');"
         />
     </div>
-
-    </a>
     
 </div>
 
-<div class="certificationsRightAll">
+</a>
 
-    <div class="certificationsRightSide" id="rightDisplay">
+<div class="certsBigAll">
+
+    <div class="certsBig" id="certsBig">
         <img
             width="900px"
             id="currentImg"
@@ -341,13 +341,14 @@
               height="1100"
             >
             </embed>
-            Error: Embedded data could not be displayed.
+            <p>Error: Embedded data could not be displayed.</p>
         </object>
     </div>
 
     <div class="resumeRight">
-        <---- Hover here for print menu
+        <p><---- Hover here for print menu</p>
     </div>
+    
 </div>
 
 <div style="text-align:center">
@@ -403,48 +404,48 @@
 <p id="contact"></p>
 <p class="headerText">CONTACT</p>
 
+<div class="contactFormAll">
+    <div class="contactForm">
+        <form action="/action_page.php">
+            <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="First name"
+            >
 
-<div class="containerContact">
-    <form action="/action_page.php">
-        <input
-          type="text"
-          id="fname"
-          name="firstname"
-          placeholder="First name"
-        >
+            <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Last name"
+            >
 
-        <input
-          type="text"
-          id="lname"
-          name="lastname"
-          placeholder="Last name"
-        >
+            <label for="country">Country</label>
+            <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">South Korea</option>
+            </select>
 
-        <label for="country">Country</label>
-        <select id="country" name="country">
-          <option value="usa">USA</option>
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">South Korea</option>
-        </select>
+            <label for="subject">Subject</label>
+            <textarea
+            id="subject"
+            name="subject"
+            placeholder="Your message here"
+            style="height:200px"
+            >
+            </textarea>
 
-        <label for="subject">Subject</label>
-        <textarea
-          id="subject"
-          name="subject"
-          placeholder="Your message here"
-          style="height:200px"
-        >
-        </textarea>
-
-        <input
-          style="margin:auto"
-          type="submit"
-          value="Submit"
-        >
-    </form>
+            <input
+            style="margin:auto"
+            type="submit"
+            value="Submit"
+            >
+        </form>
+    </div>
 </div>
-
 
 
 
