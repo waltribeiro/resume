@@ -1,3 +1,5 @@
+///////////////////////// certifications
+
 function showImage(imgName) {
     var curImage = document.getElementById('currentImg');
     var thePath = 'images/';
@@ -8,21 +10,7 @@ function showImage(imgName) {
  }
 
 
-
-
- 
-
-
-
-
-
- 
-
-
-
-
-
-
+///////////////////////// certifications
 
 function throttle(fn, delay) {
     let last;
@@ -69,10 +57,9 @@ function throttle(fn, delay) {
   
 
   
-  // Oil Painting
+// Oil Painting
 // Ported from flash project - http://wonderfl.net/c/92Ul
-//
-//
+
 function OilPainting(){
   
     var canvas;
