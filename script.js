@@ -10,54 +10,51 @@ function showImage(imgName) {
 
 
 
-  // function([string1, string2],target id,[color1,color2])    
- consoleText(['REACT', 'SQL', 'Python', 'Node.js', 'Sketch', 'AutoCAD', 'Docker', 'Salesforce', 'Analytics', 'MongoDB', 'Express.js', 'AWS', 'Javascript', 'Broadcast Engineering'], 'text',['#ffd000','#83d2ff','#cd83ff','#ff8383']); // yellow = #ffd000 blue = #83d2ff purple = #cd83ff red = #ff8383
+ 
 
- function consoleText(words, id, colors) {
-   if (colors === undefined) colors = ['#fff'];
-   var visible = true;
-   var con = document.getElementById('console');
-   var letterCount = 1;
-   var x = 1;
-   var waiting = false;
-   var target = document.getElementById(id)
-   target.setAttribute('style', 'color:' + colors[0])
-   window.setInterval(function() {
+
+
+
+
  
-     if (letterCount === 0 && waiting === false) {
-       waiting = true;
-       target.innerHTML = words[0].substring(0, letterCount)
-       window.setTimeout(function() {
-         var usedColor = colors.shift();
-         colors.push(usedColor);
-         var usedWord = words.shift();
-         words.push(usedWord);
-         x = 1;
-         target.setAttribute('style', 'color:' + colors[0])
-         letterCount += x;
-         waiting = false;
-       }, 200) // this changes between words
-     } else if (letterCount === words[0].length + 1 && waiting === false) {
-       waiting = true;
-       window.setTimeout(function() {
-         x = -1;
-         letterCount += x;
-         waiting = false;
-       }, 800)
-     } else if (waiting === false) {
-       target.innerHTML = words[0].substring(0, letterCount)
-       letterCount += x;
-     }
-   }, 80) // this changes the typing speed
-   window.setInterval(function() {
-     if (visible === true) {
-       con.className = 'console-underscore hidden'
-       visible = false;
- 
-     } else {
-       con.className = 'console-underscore'
- 
-       visible = true;
-     }
-   }, 400)
- }
+
+
+
+
+
+
+
+function throttle(fn, delay) {
+    let last;
+    let timer;
+  
+    return () => {
+      const now = +new Date;
+  
+      if (last && now < last + delay) {
+        clearTimeout(timer);
+  
+        timer = setTimeout(() => {
+          last = now;
+          fn();
+        }, delay);
+      } else {
+        last = now;
+        fn();
+      }
+  
+    };
+  }
+  
+  function onScroll() {
+    if (window.pageYOffset) {
+      $$header.classList.add('is-active');
+    } else {
+      $$header.classList.remove('is-active');
+    }
+  }
+  
+  const $$header = document.querySelector('.js-header');
+  
+  window.addEventListener('scroll', throttle(onScroll, 25));
+  
