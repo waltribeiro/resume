@@ -1,13 +1,17 @@
-function myFunction() {
-    document.getElementById("certificatesPopUp").innerHTML = "Hello World";
-  }
-
+function showImage(imgName) {
+    var curImage = document.getElementById('currentImg');
+    var thePath = 'images/';
+    var theSource = thePath + imgName;
+    curImage.src = theSource;
+    curImage.alt = imgName;
+    curImage.title = imgName;
+ }
 
 
 
 
   // function([string1, string2],target id,[color1,color2])    
- consoleText(['REACT', 'SQL', 'Python', 'Node.js', 'Analytics', 'Docker', 'AWS', 'MongoDB', 'Express.js', 'Javascript', 'Audio'], 'text',['#ffd000','#83d2ff','#cd83ff','#ff8383']); // yellow = #ffd000 blue = #83d2ff purple = #cd83ff red = #ff8383
+ consoleText(['REACT', 'SQL', 'Python', 'Node.js', 'Sketch', 'AutoCAD', 'Docker', 'Salesforce', 'Analytics', 'MongoDB', 'Express.js', 'AWS', 'Javascript', 'Broadcast Engineering'], 'text',['#ffd000','#83d2ff','#cd83ff','#ff8383']); // yellow = #ffd000 blue = #83d2ff purple = #cd83ff red = #ff8383
 
  function consoleText(words, id, colors) {
    if (colors === undefined) colors = ['#fff'];
