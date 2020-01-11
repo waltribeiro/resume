@@ -425,6 +425,7 @@ input[type=submit]:hover {
 
 .contactFormAll {
   display          : flex;
+  justify-content: center;
 }
 
 .contactForm {
@@ -434,9 +435,9 @@ input[type=submit]:hover {
   border-radius    : 5px;
 }
 
-
-
-
+hr {
+	height: 100vh;
+}
 
 
 
