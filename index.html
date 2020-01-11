@@ -8,45 +8,75 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <title>Walt Ribeiro's Resume</title>
 </head>
+
 <body>
-
-
-
 
     <header class="header sticky sticky--top js-header">
 
         <div class="grid">
       
-          <nav class="navigation">
-            <ul class="navigationList navigationListInline">
-              <li class="navigationItem"><h3><a href="#top" class="is-active">Home</a></h3></li>
-              <li class="navigationItem"><h3><a target="_blank" href="https://github.com/waltribeiro">Github</a></h3></li>
-              <li class="navigationItem"><h3><a  target="_blank" href="https://www.linkedin.com/in/waltribeiro/">Linkedin</a></h3></li>
-              <li class="navigationItem"><h3><a href="#resume">Resume</a></h3></li>
-              <li class="navigationItem"><h3><a href="#contact">Contact</a></h3></li>
-            </ul>
-          </nav>
+            <nav class="navigation">
+                <ul class="navigationList navigationListInline">
+                    <li class="navigationItem">
+                        <h3>
+                            <a href="#top" class="is-active">Home</a>
+                        </h3>
+                    </li>
+
+                    <li class="navigationItem">
+                        <h3>
+                            <a target="_blank" href="https://github.com/waltribeiro">Github</a>
+                        </h3>
+                    </li>
+                    
+                    <li class="navigationItem">
+                        <h3>
+                            <a target="_blank" href="https://www.linkedin.com/in/waltribeiro/">Linkedin</a>
+                        </h3>
+                    </li>
+                    
+                    <li class="navigationItem">
+                        <h3>
+                            <a href="#resume">Resume</a>
+                        </h3>
+                    </li>
+                    
+                    <li class="navigationItem">
+                        <h3>
+                            <a href="#contact">Contact</a>
+                        </h3>
+                    </li>
+                </ul>
+            </nav>
       
         </div>
       
-      </header>
+    </header>
       
-      <main class="main">
+    <main class="main">
         <div class="grid">
         </div>
-      </main>
+    </main>
 
       
 
 
 
+
+<canvas style="float:right" id="canvas"></canvas>
+    <!-- 
+     Move the mouse to paint.
+     Click to change color.
+     Double Click to clear the canvas.
+-->
 
 <div
     style="padding:10px 0px 0px 20px;
     font-size:36px;
     height:16vh;
     background-color:black;
-    color:white;">
+    color:white;"
+    >
     WALT RIBEIRO
     <br>
     SOFTWARE ENGINEER
@@ -54,79 +84,130 @@
 
 
 
+<div class="headerText" id="projects">PROJECTS</div>
 
-<!-- <blockquote>
-     from UPenn.<br>
-</blockquote> -->
-<div>
-<p id="projects"></p>
-<p class="headerText">PROJECTS</p>
+<div class="projectsContainer" id="app1">
 
-    <table id="app1" class="projectsInline">
-        <tr>
-            <td>
-                <span class="stuff" style="font-size: 24px;">PHLASK</span><br>
-                • An open-sourced non-profit project that locates all the free water sources in "PHL-ladelphia"
-                <br>
-                • Used <span class="stuff">React</span>, <span class="stuff">SQL</span>, and <span class="stuff">Google's RestAPI</span> to build the address bar for mobile
-                <br>
-                • Deloyed using <span class="stuff">Yarn</span> and <span class="stuff">Docker</span>
-                <br>
-                <br>
-                <span class="button_cont" style="text-align:center"><a class="example_d" href="add-website-here" target="_blank" rel="nofollow noopener">CODE</a></span>
-                
-                &nbsp;&nbsp;&nbsp;
+<!---------- image 1 ---------->
+    
+    <div class="projectsDivLeft">
+        <img class="projectImage" src="images/app1.png">
+    </div>       
+ 
+<!---------- description 1 ---------->
 
-                <span class="button_cont" style="text-align:center"><a class="example_d" href="https://github.com/phlask/phlask-map" target="_blank" rel="nofollow noopener">GITHUB</a></span>
-
-                &nbsp;&nbsp;&nbsp;
-
-                <span class="button_cont" style="text-align:center"><a class="example_d" href="https://phlask.me/find-water"" target="_blank" rel="nofollow noopener">WEBSITE</a></span>
-                             
-                <br>&nbsp;</br>
-                <br>&nbsp;</br>
-
-            </td>
-            <td>
-                <img class="projectImage" src="images/app1.png">
-            </td>
-        </tr>
-
+    <div class="projectsDivRight">
+        <span class="stuff" style="font-size: 24px;">PHLASK</span>
+        <br>
+        • An open-sourced non-profit project that locates all the free water sources in "PHL-ladelphia"
+        <br>
+        • Used <span class="stuff">React</span>, <span class="stuff">SQL</span>, and <span class="stuff">Google's RestAPI</span> to build the address bar for mobile
+        <br>
+        • Deloyed using <span class="stuff">Yarn</span> and <span class="stuff">Docker</span>
+        <br>
+        <br>
         
-        <tr>
-            <td class="projectsInline">
-                <span class="stuff" style="font-size: 24px;">JS PIANO</span><br>
-                • Phlask is a crowdsourced map that locates all the water fountains in Philadelphia
-                <br>
-                • Used <strong>React</strong>, <strong>SQL</strong>, and <strong>Google's RestAPI</strong> to build the address bar for mobile
-                <br>
-                • Deloyed using <span class="stuff">Yarn</span> and <span class="stuff">Docker</span>
-                <br>
-                <br>
-                <span class="button_cont" style="text-align:center"><a class="example_d" href="https://github.com/phlask/phlask-map" target="_blank" rel="nofollow noopener">DEMO</a></span>
-                
-                &nbsp;&nbsp;&nbsp;
-
-                <span class="button_cont" style="text-align:center"><a class="example_d" href="https://github.com/waltribeiro/javascript-personal-02-piano" target="_blank" rel="nofollow noopener">GITHUB</a></span>
-
-                &nbsp;&nbsp;&nbsp;
-
-                <span class="button_cont" style="text-align:center"><a class="example_d" href="https://phlask.me/find-water"" target="_blank" rel="nofollow noopener">WEBSITE</a></span>
-                
-                <br>&nbsp;</br>
-                <br>&nbsp;</br>
-            
-            </td>
-            <td>
-                <img class="projectImage" src="images/app2.png"></a>
-            </td>
-        </tr>
+        <span class="button_cont" style="text-align:center">
+            <a class="buttons" href="add-website-here" target="_blank" rel="nofollow noopener">CODE</a>
+        </span>
         
-    </table>
+        &nbsp;&nbsp;&nbsp;
+
+        <span class="button_cont" style="text-align:center">
+            <a class="buttons" href="https://github.com/phlask/phlask-map" target="_blank" rel="nofollow noopener">GITHUB</a>
+        </span>
+
+        &nbsp;&nbsp;&nbsp;
+
+        <span class="button_cont" style="text-align:center">
+            <a class="buttons" href="https://phlask.me/find-water" target="_blank" rel="nofollow noopener">WEBSITE</a>
+        </span>
+
+    </div>
+
+
+<!---------- image 2 ---------->
+
+    <div class="projectsDivLeft">
+        <img class="projectImage" src="images/app1.png">
+    </div>       
+ 
+<!---------- description 2 ---------->
+
+    <div class="projectsDivRight">
+        <span class="stuff" style="font-size: 24px;">PHLASK</span>
+        <br>
+        • An open-sourced non-profit project that locates all the free water sources in "PHL-ladelphia"
+        <br>
+        • Used <span class="stuff">React</span>, <span class="stuff">SQL</span>, and <span class="stuff">Google's RestAPI</span> to build the address bar for mobile
+        <br>
+        • Deloyed using <span class="stuff">Yarn</span> and <span class="stuff">Docker</span>
+        <br>
+        <br>
+        
+        <span class="button_cont" style="text-align:center">
+            <a class="buttons" href="add-website-here" target="_blank" rel="nofollow noopener">CODE</a>
+        </span>
+        
+        &nbsp;&nbsp;&nbsp;
+
+        <span class="button_cont" style="text-align:center">
+            <a class="buttons" href="https://github.com/phlask/phlask-map" target="_blank" rel="nofollow noopener">GITHUB</a>
+        </span>
+
+        &nbsp;&nbsp;&nbsp;
+
+        <span class="button_cont" style="text-align:center">
+            <a class="buttons" href="https://phlask.me/find-water" target="_blank" rel="nofollow noopener">WEBSITE</a>
+        </span>
+
+    </div>
+
+
+<!---------- image 3 ---------->
+
+    <div class="projectsDivLeft">
+        <img class="projectImage" src="images/app1.png">
+    </div>       
+ 
+<!---------- description 3 ---------->
+
+    <div class="projectsDivRight">
+        <span class="stuff" style="font-size: 24px;">PHLASK</span>
+        <br>
+        • An open-sourced non-profit project that locates all the free water sources in "PHL-ladelphia"
+        <br>
+        • Used <span class="stuff">React</span>, <span class="stuff">SQL</span>, and <span class="stuff">Google's RestAPI</span> to build the address bar for mobile
+        <br>
+        • Deloyed using <span class="stuff">Yarn</span> and <span class="stuff">Docker</span>
+        <br>
+        <br>
+        
+        <span class="button_cont" style="text-align:center">
+            <a class="buttons" href="add-website-here" target="_blank" rel="nofollow noopener">CODE</a>
+        </span>
+        
+        &nbsp;&nbsp;&nbsp;
+
+        <span class="button_cont" style="text-align:center">
+            <a class="buttons" href="https://github.com/phlask/phlask-map" target="_blank" rel="nofollow noopener">GITHUB</a>
+        </span>
+
+        &nbsp;&nbsp;&nbsp;
+
+        <span class="button_cont" style="text-align:center">
+            <a class="buttons" href="https://phlask.me/find-water" target="_blank" rel="nofollow noopener">WEBSITE</a>
+        </span>
+
+    </div>
+
+
+
 
 </div>
-<p id="certifications"></p>
-<p class="headerText">CERTIFICATIONS</p>
+
+<div id="certifications"></div>
+<div class="headerText">CERTIFICATIONS</div>
 
 <div style="text-align:center" class="mainContainer" id="mainContainer">
 
@@ -138,13 +219,15 @@
         <img
         class="certificateRow"
         width="100px"
-        src="images/certificate-biamp-tesiraforte.jpg" alt="certificate-biamp-tesiraforte.jpg"
+        src="images/certificate-biamp-tesiraforte.jpg"
+        alt="certificate-biamp-tesiraforte.jpg"
         title="certificate-biamp-tesiraforte.jpg"
         onclick="showImage('certificate-biamp-tesiraforte.jpg');"
         />
 
         <img
-        class="certificateRow"width="100px"
+        class="certificateRow"
+        width="100px"
         src="images/certificate-clearone.jpg"
         alt="certificate-clearone.jpg"
         title="certificate-clearone.jpg"
@@ -153,7 +236,9 @@
 
         <img
         class="certificateRow"
-        width="100px" src="images/certificate-qsys-control-101.jpg" alt="certificate-qsys-control-101.jpg"
+        width="100px"
+        src="images/certificate-qsys-control-101.jpg"
+        alt="certificate-qsys-control-101.jpg"
         title="certificate-qsys-control-101.jpg"
         onclick="showImage('certificate-qsys-control-101.jpg');"
         />
@@ -202,25 +287,32 @@
     id="rightDisplay"
     >
         <img
-        height="600px"
+        width="900px"
         id="currentImg"
         src="images/certificate-qsys-control-101.jpg"
         alt="certificate-qsys-control-101.jpg"
         title="certificate-qsys-control-101.jpg"
         />
+        
     </div>
 
- </div>
+</div>
 
-<p id="resume" class="headerText">RESUME</p>
+<div class="headerText" id="resume">RESUME</div>
+
 <div class="resume" style="text-align:center" id="resume">
 
-    <object data="http://waltribeiro.github.io/resume/images/walt-ribeiro-resume-full-stack-developer-january-2020.pdf" width="750" height="1100">
-        <embed src="http://waltribeiro.github.io/resume/images/walt-ribeiro-resume-full-stack-developer-january-2020.pdf" width="750" height="1100"> </embed>
+    <object
+    data="http://waltribeiro.github.io/resume/images/walt-ribeiro-resume-full-stack-developer-january-2020.pdf" width="750"
+    height="1100"
+    >
+        <embed
+        src="http://waltribeiro.github.io/resume/images/walt-ribeiro-resume-full-stack-developer-january-2020.pdf" width="750"
+        height="1100"
+        >
+        </embed>
         Error: Embedded data could not be displayed.
     </object>
-
-
 
 </div>
 
@@ -234,14 +326,29 @@
     <br><br>
 
     Auto CAD design for lighting cabinet
-    <img width="768px" id="image1" src="images/walt-ribeiro-additional-documents-1.png">
+    <img
+    width="768px"
+    id="image1"
+    src="images/walt-ribeiro-additional-documents-1.png">
+    
     <br>
+    
     Auto CAD design for lighting cabinet
-    <img width="768px" id="image2" src="images/walt-ribeiro-additional-documents-2.png">
+    <img
+    width="768px"
+    id="image2"
+    src="images/walt-ribeiro-additional-documents-2.png">
+    
     <br>
+    
     Auto CAD design for lighting cabinet
-    <img width="768px" id="image3" src="images/walt-ribeiro-additional-documents-3.png">
+    <img
+    width="768px"
+    id="image3"
+    src="images/walt-ribeiro-additional-documents-3.png">
+    
     <br>
+
 </div>
 
 
@@ -251,25 +358,38 @@
 
 
 <div class="containerContact">
-  <form action="/action_page.php">
-    <input type="text" id="fname" name="firstname" placeholder="First name">
+    <form action="/action_page.php">
+        <input type="text" id="fname" name="firstname" placeholder="First name">
 
-    <input type="text" id="lname" name="lastname" placeholder="Last name">
+        <input type="text" id="lname" name="lastname" placeholder="Last name">
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-        <option value="usa">USA</option>
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">South Korea</option>
-    </select>
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">South Korea</option>
+        </select>
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Your message here" style="height:200px"></textarea>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Your message here" style="height:200px"></textarea>
 
-<input style="margin:auto" type="submit" value="Submit">
-  </form>
+        <input style="margin:auto" type="submit" value="Submit">
+    </form>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -281,11 +401,11 @@
 
 <script src="script.js"></script>
 
-
-<footer>
-    100% built by Walt Ribeiro
-</footer>
-
+<div>
+    <footer>
+        Website created by me (Walt Ribeiro)
+    </footer>
+</div>
 </body>
 
 </html>
