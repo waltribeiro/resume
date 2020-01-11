@@ -51,7 +51,7 @@ blockquote {
   font-weight : 100;
   width       : 100%;
   text-align: center;
-  height: 50px;
+  height: 30px;
   padding-top: 10px;
 }
 
@@ -232,85 +232,90 @@ blockquote {
 
 
 
-  @import url("https://fonts.googleapis.com/css?family=Roboto:700");
 
-  body {
-    margin: 0px;
-    font-family: "Roboto";
-    text-align: center;
-  }
-  
-  #container {
-    color: #999;
+  .slider-wrapper {
+    font-size: 24px;
+    color:rgb(255, 255, 255);
+    font-weight: 400;
     text-transform: uppercase;
-    font-size: 26px;
-    font-weight: bold;
-    position: relative;
-    width: 100%;
-    bottom: 45%;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position : relative;
+    bottom : 3px;
+    right : 20px
   }
-  
-  #flip {
-    height: 50px;
+  .slider {
+    height: 36px;
+    padding-left:15px;
     overflow: hidden;
   }
-  
-  #flip > div > div {
-    color: #fff;
-    padding: 4px 12px;
-    height: 45px;
-    margin-bottom: 45px;
-    display: inline-block;
+  .slider div {
+    color:#fff;
+    height: 50px;
+    margin-bottom: 50px;
+    padding: 2px 10px 0px 10px;
+    text-align: center;
+    box-sizing: border-box;
   }
-  
-  #flip div:first-child {
-    animation: show 5s linear infinite;
+  .slider-text1 {
+    background: lightgreen;
+    animation: slide 13s ease-in infinite;
   }
-  
-  #flip div div {
-    background: #42c58a;
+  .slider-text2 {
+    background: skyblue;
   }
-  #flip div:first-child div {
-    background: #4ec7f3;
+  .slider-text3 {
+    background: lightcoral;
   }
-  #flip div:last-child div {
-    background: #dc143c;
+  .slider-text4 {
+    background: rgb(248, 76, 211);
   }
-  
-@keyframes show {
-    0% {
-      margin-top: -270px;
-    }
-    5% {
-      margin-top: -180px;
-    }
-    33% {
-      margin-top: -180px;
-    }
-    38% {
-      margin-top: -90px;
-    }
-    66% {
-      margin-top: -90px;
-    }
-    71% {
-      margin-top: 0px;
-    }
-    99.99% {
-      margin-top: 0px;
-    }
-    100% {
-      margin-top: -270px;
-    }
+  .slider-text5 {
+    background: rgb(255, 176, 48);
   }
-  
-  p {
-    position: none;
-    width: 100%;
-    bottom: 30px;
-    font-size: 12px;
-    color: #999;
-    margin-top: 0px;
+  .slider-text6 {
+    background: rgb(151, 76, 248);
   }
-    
+  .slider-text7 {
+    background: rgb(90, 244, 255);
+  }
+  .slider-text8 {
+    background: rgb(217, 248, 76);
+  }
+  .slider-text9 {
+    background: rgb(102, 248, 76);
+  }
+  .slider-text10 {
+    background: rgb(248, 76, 211);
+  }
+  @keyframes slide {
+    0% {margin-top:-700px;} /* left is the time; right is the animation */
+    5% {margin-top:-700px;} /* -00 is HTML */
+    10% {margin-top:-600px;} /* -100 is CSS */
+    15% {margin-top:-600px;} /* -200px is PHP */
+    20% {margin-top:-500px;} /* -300px is WALT */
+    25% {margin-top:-500px;} /*   */
+    30% {margin-top:-400px;} /*   */
+    35% {margin-top:-400px;} /*   */
+    40% {margin-top:-300px;} /*   */
+    45% {margin-top:-300px;} /*   */
+    50% {margin-top:-200px;} /*   */
+    60% {margin-top:-200px;} /*   */
+    70% {margin-top:-100px;} /*   */
+    78% {margin-top:-100px;} /*   */
+    86% {margin-top:-000px;} /*   */
+    94% {margin-top:-000px;} /*   */
+    100% {margin-top: 100px;} /*   */
+
+  }
+
+
+ div.inline {
+   float:right;
+   padding-right: 30px;
+  }
+
+.clearBoth {
+  clear:both;
+}
