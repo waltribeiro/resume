@@ -91,13 +91,15 @@ span.boldWords {
 
 .projectsImageDiv {
   margin : auto;
-  flex   : 0;
+  flex   : 2;
   width  : 900;
   flex-wrap: wrap;
+  margin: 0px 20px 0px 0px;
 }
 
 .projectsImageWidth {
   width:250px;
+  margin: auto;
 }
 
 .projectsButtonsContainer {
@@ -108,9 +110,7 @@ span.boldWords {
 }
 
 .projectsButtonsItem {
-  margin: auto;
   flex: 1;
-box-sizing: border-box;  
 }
 
 .buttons {
