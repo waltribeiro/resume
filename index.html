@@ -428,9 +428,25 @@
     <p>Email <a href="mailto:w@waltrib.com">w@waltrib.com</a> or use the form below</p>
 </div>
 
+
+<div>
+<main>
+<form class="contact-form" action="contactform.php" method="post">
+    <input type="text" name="name" placeholder="full name">
+    <input type="text" name="mail" placeholder="your e-name">
+    <input type="text" name="subject" placeholder="Subject">
+   <textarea name="message" placeholder="Message"></textarea>
+   <button type="submit" name="submit"> send mail</button>
+</form>
+</main>
+</div> 
+
+
+
+
 <div class="contactFormAll">
     <div class="contactForm">
-        <form action="/action_page.php">
+        <form class=contact-form" action="contactform.php" method="post">
             <input
               type="text"
               id="fname"
