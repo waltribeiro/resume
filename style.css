@@ -30,15 +30,15 @@ blockquote {
 html {
   -webkit-box-sizing : border-box;
           box-sizing : border-box;
-  height             : 100%;
 }
 
 body {
   font-family : 'Helvetica', monospace;
   line-height : 1.75;
-  margin      : 0;
-  min-height  : 100%;
-  width       : 100%;
+  margin      : 4;
+  min-height  : auto;
+  max-width       : 1000px;
+  margin: auto;
 }
 
 footer {
@@ -103,6 +103,7 @@ span.boldWords {
 .projectsButtonsItem {
   margin: auto;
   flex: 1;
+box-sizing: border-box;  
 }
 
 .buttons {

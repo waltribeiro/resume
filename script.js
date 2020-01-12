@@ -93,7 +93,7 @@ function OilPainting(){
           canvas  = document.getElementById("canvas");
           context = canvas.getContext('2d');
       
-          width = 1000
+          width = 500
           height = 140
           
           canvas.width = width;
