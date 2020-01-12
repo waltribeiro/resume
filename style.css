@@ -76,37 +76,7 @@ span.boldWords {
   flex-wrap: wrap;
 }
 
-.projectsAll2 {
-  display: flex;
-  margin           : 20px;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.projectsAll3 {
-  display: flex;
-  margin           : 20px;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 .projectsDescriptionDiv1 {
-  color            : #000000;
-  margin           : auto;
-  font-weight      : 300;
-  background-color : #ffffff;
-}
-
-.projectsDescriptionDiv2 {
-  color            : #000000;
-  margin           : auto;
-  font-weight      : 300;
-  background-color : #ffffff;
-}
-
-.projectsDescriptionDiv3 {
   color            : #000000;
   margin           : auto;
   font-weight      : 300;
@@ -118,27 +88,7 @@ span.boldWords {
   flex: 0;
 }
 
-.projectsImageDiv2 {
-  margin : auto;
-  flex: 0;
-}
-
-.projectsImageDiv3 {
-  margin : auto;
-  flex: 0;
-}
-
 .projectsButtonsContainer1 {
-  display: flex;
-  justify-content: center;
-}
-
-.projectsButtonsContainer2 {
-  display: flex;
-  justify-content: center;
-}
-
-.projectsButtonsContainer3 {
   display: flex;
   justify-content: center;
 }
@@ -154,36 +104,6 @@ span.boldWords {
 }
 
 .projectsButtonsItem3 {
-  margin: auto;
-  flex: 1;
-}
-
-.projectsButtonsItem4 {
-  margin: auto;
-  flex: 1;
-}
-
-.projectsButtonsItem5 {
-  margin: auto;
-  flex: 1;
-}
-
-.projectsButtonsItem6 {
-  margin: auto;
-  flex: 1;
-}
-
-.projectsButtonsItem7 {
-  margin: auto;
-  flex: 1;
-}
-
-.projectsButtonsItem8 {
-  margin: auto;
-  flex: 1;
-}
-
-.projectsButtonsItem9 {
   margin: auto;
   flex: 1;
 }
