@@ -72,8 +72,10 @@ span.boldWords {
 }
 
 .projectsAll {
+  display : -webkit-box;
+  display : -ms-flexbox;
+  display : flex;
   background-color:rgb(255, 255, 255);
-  display: flex;
   padding           : 20px;
   flex-direction: row;
   justify-content: center;
@@ -99,7 +101,9 @@ span.boldWords {
 }
 
 .projectsButtonsContainer {
-  display: flex;
+  display : -webkit-box;
+  display : -ms-flexbox;
+  display : flex;
   justify-content: flex-end;
 }
 
@@ -141,9 +145,11 @@ box-sizing: border-box;
 }
 
 .certsSmallAll {
+  display : -webkit-box;
+  display : -ms-flexbox;
+  display : flex;
   background-color : rgb(255, 255, 255);
   height           : auto;
-  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
@@ -172,7 +178,7 @@ box-sizing: border-box;
 .certsBigAll {
   justify-content: center;
   display: flex;
-  height: 700px;
+  height: auto;
 }
 
 .certsBig {
@@ -184,10 +190,12 @@ box-sizing: border-box;
 }
 
 .headerAll {
-display: flex;
-flex: wrap;
-background-color: black;
-flex-direction: column;
+  display : -webkit-box;
+  display : -ms-flexbox;
+  display : flex;
+  flex: wrap;
+  background-color: black;
+  flex-direction: column;
 }
 
 .headerWalt {
@@ -209,8 +217,10 @@ flex-direction: column;
   font-weight      : 900;
   color            : #000000;
   padding      : 10px 0px 10px 0px;
-display: flex;
-justify-content: center;
+  display : -webkit-box;
+  display : -ms-flexbox;
+  display : flex;
+  justify-content: center;
 }
 
 .headerLink:after {
@@ -263,18 +273,26 @@ justify-content: center;
 
 .otherAll {
  background-color: white;
- display: flex;
  flex-direction: column;
  flex-wrap: wrap;
 }
 
 .otherItem {
   margin: auto;
+  width: 70%;
+  background-color: #3bf163;
 }
 
 .otherItemDescription {
   margin: auto;
-  width: 80%;
+  width: 70%;
+}
+
+@media (min-width: 900px) {
+  .otherAll {
+    display:flex;
+    justify-content: space-between;
+  }
 }
 
 
@@ -461,7 +479,9 @@ input[type=submit]:hover {
 }
 
 .contactFormAll {
-  display          : flex;
+  display : -webkit-box;
+  display : -ms-flexbox;
+  display : flex;
   justify-content: center;
   background-color:rgb(255, 255, 255);
 }
@@ -606,7 +626,9 @@ figure:hover+span {
 
 @media (min-width: 900px) {
   .certsSmallAll {
-    display: flex;
+    display : -webkit-box;
+    display : -ms-flexbox;
+    display : flex;
     flex-wrap: wrap;
   }
 }
