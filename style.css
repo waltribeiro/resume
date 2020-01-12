@@ -30,6 +30,7 @@ blockquote {
 html {
   -webkit-box-sizing : border-box;
           box-sizing : border-box;
+          background-color:rgb(0, 0, 0);
 }
 
 body {
@@ -39,6 +40,7 @@ body {
   min-height  : auto;
   max-width       : 1000px;
   margin: auto;
+
 }
 
 footer {
@@ -70,8 +72,9 @@ span.boldWords {
 }
 
 .projectsAll {
+  background-color:rgb(255, 255, 255);
   display: flex;
-  margin           : 20px;
+  padding           : 20px;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
@@ -182,13 +185,15 @@ box-sizing: border-box;
 
 .headerAll {
 display: flex;
-flex: nowrap;
+flex: wrap;
 background-color: black;
+flex-direction: column;
 }
 
 .headerWalt {
-margin: auto;
-order: 0;
+  margin: auto;
+  font-size:36px;
+  color:white;
 }
 
 .headerCanvas {
@@ -228,35 +233,49 @@ justify-content: center;
 
 .resumeAll {
   display: flex;
-  height           : 1100px;
+  width           : 100%;
   background-color : #000000;
   flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
  }
 
 .resumeLeft {
   font-size : 26px;
   color  : #3bf163;
   margin : auto;
-  flex-grow: 0;
+  flex: 1;
 }
 
 .resumeMiddle {
   font-size : 26px;
   color  : #3bf163;
   margin : auto;
-  flex-grow: 1;
+  flex: 1;
 }
 
 .resumeRight {
   font-size : 26px;
   color     : #3bf163;
-  margin    : auto;
-  flex-grow: 0;
+  flex: 0;
+  margin : auto;
 }
 
+.otherAll {
+ background-color: white;
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+}
 
+.otherItem {
+  margin: auto;
+}
 
-
+.otherItemDescription {
+  margin: auto;
+  width: 80%;
+}
 
 
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
@@ -444,6 +463,7 @@ input[type=submit]:hover {
 .contactFormAll {
   display          : flex;
   justify-content: center;
+  background-color:rgb(255, 255, 255);
 }
 
 .contactForm {
@@ -596,3 +616,9 @@ figure:hover+span {
 canvas {
   background-color: black;
 }
+
+
+
+
+
+
