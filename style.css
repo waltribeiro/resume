@@ -52,7 +52,8 @@ footer {
 }
 
 img {
-  margin           : 20px 30px 0px 70px;
+  max-width        : 100%;
+  margin           : 20px 20px 20px 20px;
   background-color : rgb(0, 0, 0);
   padding          : 4px;
 }
@@ -68,7 +69,7 @@ span.boldWords {
   padding     : 0px 0px 0px 0px;
 }
 
-.projectsAll1 {
+.projectsAll {
   display: flex;
   margin           : 20px;
   flex-direction: row;
@@ -76,34 +77,30 @@ span.boldWords {
   flex-wrap: wrap;
 }
 
-.projectsDescriptionDiv1 {
+.projectsDescriptionDiv {
   color            : #000000;
   margin           : auto;
   font-weight      : 300;
   background-color : #ffffff;
 }
 
-.projectsImageDiv1 {
+.projectsImageDiv {
   margin : auto;
-  flex: 0;
+  flex   : 0;
+  width  : 900;
+  flex-wrap: wrap;
 }
 
-.projectsButtonsContainer1 {
+.projectsImageWidth {
+  width:250px;
+}
+
+.projectsButtonsContainer {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
-.projectsButtonsItem1 {
-  margin: auto;
-  flex: 1;
-}
-
-.projectsButtonsItem2 {
-  margin: auto;
-  flex: 1;
-}
-
-.projectsButtonsItem3 {
+.projectsButtonsItem {
   margin: auto;
   flex: 1;
 }
