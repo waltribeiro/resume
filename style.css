@@ -345,13 +345,17 @@ span.boldWords {
 /* helpers/sticky.css */
 
 .sticky {
+  z-index: 5;
   position    : -webkit-sticky;
   position    : sticky;
   will-change : transform;
+
+
 }
 
 .sticky--top {
   top : 0;
+
 }
 
 /* layout/base.css */
@@ -637,6 +641,55 @@ figure:hover+span {
 
 canvas {
   background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.c-preview {
+  z-index: 3;
+  background: rgb(0, 0, 0);
+  background: -moz-linear-gradient(-45deg, #000000 0%, #000000 25%, #1e539e 50%, #000000 75%, #000000 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #000000 0%, #000000 25%, #1e539e 50%, #000000 75%, #000000 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #000000 0%, #000000 25%, #1e539e 50%, #000000 75%, #000000 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-size: 200% 400%;
+  background-repeat: no-repeat;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-self: center;
+  max-width: 100%;
+  max-height: 100%;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Helvetica';
+  position: relative;
+  transition: 0.7s all;
+}
+
+.c-preview__title {
+  font-size: 34px;
+  font-weight: 400;
+  position: relative;
+  z-index: 4;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  padding: 5% 5%;
+}
+.c-preview:hover {
+  background-position: 100% 100%;
 }
 
 
