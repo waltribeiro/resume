@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
-    <script type='text/javascript' language='javascript' src='jquery-v1-4-2-min.js'></script>
+ <!-- smooth ID scrolling jquery -->
+     <script type='text/javascript' language='javascript' src='jquery-v1-4-2-min.js'></script>
 
     <title>Walt Ribeiro's Resume</title>
 </head>
@@ -65,169 +66,188 @@
 
 
 
+<div class="headerAll">
 
-<canvas style="float:right" id="canvas"></canvas>
-    <!-- 
+<canvas class="headerCanvas" style="float:right" id="canvas"></canvas>
+   
+<!-- 
      Move the mouse to paint.
      Click to change color.
      Double Click to clear the canvas.
 -->
 
 <div
+    class="headerWalt"
     style="padding:10px 0px 0px 20px;
     font-size:36px;
     height:16vh;
     background-color:black;
     color:white;"
-    >
+>
     WALT RIBEIRO
     <br>
     SOFTWARE ENGINEER
 </div>
-
+</div>
 
 
 <div class="headerText" id="projects">PROJECTS</div>
 
-<div class="projectsContainer" id="app1">
 
-<!---------- image 1 ---------->
+<div class="projectsAll1" id="app1">
+
+    <!---------- image 1 ---------->
     
-    <div class="projectsDivLeft">
-        <img class="projectImage" src="images/app1.png">
+    <div class="projectsImageDiv1">
+        <img
+            class="projectsImage"
+            style="width:300px"
+            src="images/app1.png"
+        >
     </div>       
- 
-<!---------- description 1 ---------->
-
-    <div class="projectsDivRight">
-        <span class="stuff" style="font-size: 24px;">PHLASK</span>
-        <br>
-        • An open-sourced project that locates all the free water sources in "PHL-ladelphia"
-        <br>
-        • Used <span class="stuff">React</span>, <span class="stuff">SQL</span>, and <span class="stuff">Google's RestAPI</span> to build the address bar for mobile
-        <br>
-        • Deloyed using <span class="stuff">Yarn</span> and <span class="stuff">Docker</span>
-        <br>
-        <br>
-        
-        <span class="button_cont" style="text-align:center">
-            <a
-              class="buttons"
-              href="add-website-here"
-              target="_blank"
-              rel="nofollow noopener"
-            >CODE</a>
-                
-        </span>
-        
-        &nbsp;&nbsp;&nbsp;
-
-        <span class="button_cont" style="text-align:center">
-            <a class="buttons" href="https://github.com/phlask/phlask-map" target="_blank" rel="nofollow noopener">GITHUB</a>
-        </span>
-
-        &nbsp;&nbsp;&nbsp;
-
-        <span class="button_cont" style="text-align:center">
-            <a
-              class="buttons"
-              href="https://phlask.me/find-water"
-              target="_blank"
-              rel="nofollow noopener"
-            >WEBSITE</a>
-        </span>
-
-    </div>
-
-
-<!---------- image 2 ---------->
-
-    <div class="projectsDivLeft">
-        <img class="projectImage" src="images/app2.png">
-    </div>       
- 
-<!---------- description 2 ---------->
-
-    <div class="projectsDivRight">
-        <span class="stuff" style="font-size: 24px;">PHLASK</span>
+     
+    <!---------- description 1 ---------->
+    
+    <div class="projectsDescriptionDiv1">
+        <span class="boldWords" style="font-size: 24px"
+        >PHLASK</span>
         <br>
         • An open-sourced non-profit project that locates all the free water sources in "PHL-ladelphia"
         <br>
-        • Used <span class="stuff">React</span>, <span class="stuff">SQL</span>, and <span class="stuff">Google's RestAPI</span> to build the address bar for mobile
+        • Used <span class="boldWords">React</span>, <span class="boldWords">SQL</span>, and <span class="boldWords">Google's RestAPI</span> to build the address bar for mobile
         <br>
-        • Deloyed using <span class="stuff">Yarn</span> and <span class="stuff">Docker</span>
+        • Deloyed using <span class="boldWords">Yarn</span> and <span class="boldWords">Docker</span>
         <br>
         <br>
         
-        <span class="button_cont" style="text-align:center">
-            <a class="buttons" href="add-website-here" target="_blank" rel="nofollow noopener">CODE</a>
-        </span>
-        
-        &nbsp;&nbsp;&nbsp;
+        <div class="projectsButtonsContainer1">
+            
+            <div
+                class="projectsButtonsItem1"
+            >
+                <a
+                    class="buttons"
+                    href="add-website-here"
+                    target="_blank"
+                    rel="nofollow noopener"
+                >CODE</a>
+            
+            </div>
 
-        <span class="button_cont" style="text-align:center">
-            <a class="buttons" href="https://github.com/phlask/phlask-map" target="_blank" rel="nofollow noopener">GITHUB</a>
-        </span>
 
-        &nbsp;&nbsp;&nbsp;
+            <div
+                class="projectsButtonsItem2"
+            >
+                <a
+                    class="buttons"
+                    href="https://github.com/phlask/phlask-map"
+                    target="_blank"
+                    rel="nofollow noopener"
+                >GITHUB</a>
+            </div>
 
-        <span class="button_cont" style="text-align:center">
-            <a class="buttons" href="https://phlask.me/find-water" target="_blank" rel="nofollow noopener">WEBSITE</a>
-        </span>
 
+            <div
+            class="projectsButtonsItem3"
+            >
+                <a class="buttons"
+                href="https://phlask.me/find-water"
+                target="_blank"
+                rel="nofollow noopener"
+                >WEBSITE</a>
+            </div>
+
+        </div>
+           
     </div>
-
-
-<!---------- image 3 ---------->
-
-    <div class="projectsDivLeft">
-        <img class="projectImage" src="images/app3.png">
-    </div>       
- 
-<!---------- description 3 ---------->
-
-    <div class="projectsDivRight">
-        <span class="stuff" style="font-size: 24px;">PHLASK</span>
-        <br>
-        • An open-sourced non-profit project that locates all the free water sources in "PHL-ladelphia"
-        <br>
-        • Used <span class="stuff">React</span>, <span class="stuff">SQL</span>, and <span class="stuff">Google's RestAPI</span> to build the address bar for mobile
-        <br>
-        • Deloyed using <span class="stuff">Yarn</span> and <span class="stuff">Docker</span>
-        <br>
-        <br>
-        
-        <span class="button_cont" style="text-align:center">
-            <a
-              class="buttons"
-              href="add-website-here"
-              target="_blank"
-              rel="nofollow noopener"
-            >CODE</a>
-                
-        </span>
-        
-        &nbsp;&nbsp;&nbsp;
-
-        <span class="button_cont" style="text-align:center">
-            <a
-              class="buttons"
-              href="https://github.com/phlask/phlask-map"
-              target="_blank"
-              rel="nofollow noopener"
-            >GITHUB</a>
-              
-        </span>
-
-        &nbsp;&nbsp;&nbsp;
-
-        <span class="button_cont" style="text-align:center">
-            <a class="buttons" href="https://phlask.me/find-water" target="_blank" rel="nofollow noopener">WEBSITE</a>
-        </span>
-
-    </div>
-
+    
 </div>
+
+
+
+
+
+
+
+
+<div class="projectsAll2" id="app2">
+
+    <!---------- image 1 ---------->
+    
+    <div class="projectsImageDiv2">
+        <img
+            class="projectsImage"
+            style="width:300px"
+            src="images/app1.png"
+        >
+    </div>       
+     
+    <!---------- description 1 ---------->
+    
+    <div class="projectsDescriptionDiv2">
+        <span class="boldWords" style="font-size: 24px"
+        >PHLASK</span>
+        <br>
+        • An open-sourced non-profit project that locates all the free water sources in "PHL-ladelphia"
+        <br>
+        • Used <span class="boldWords">React</span>, <span class="boldWords">SQL</span>, and <span class="boldWords">Google's RestAPI</span> to build the address bar for mobile
+        <br>
+        • Deloyed using <span class="boldWords">Yarn</span> and <span class="boldWords">Docker</span>
+        <br>
+        <br>
+        
+        <div class="projectsButtonsContainer2">
+            
+            <div
+                class="projectsButtonsItem4"
+            >
+                <a
+                    class="buttons"
+                    href="add-website-here"
+                    target="_blank"
+                    rel="nofollow noopener"
+                >CODE</a>
+            
+            </div>
+
+
+            <div
+                class="projectsButtonsItem5"
+            >
+                <a
+                    class="buttons"
+                    href="https://github.com/phlask/phlask-map"
+                    target="_blank"
+                    rel="nofollow noopener"
+                >GITHUB</a>
+            </div>
+
+
+            <div
+            class="projectsButtonsItem6"
+            >
+                <a class="buttons"
+                href="https://phlask.me/find-water"
+                target="_blank"
+                rel="nofollow noopener"
+                >WEBSITE</a>
+            </div>
+
+        </div>
+           
+    </div>
+    
+</div>
+
+
+
+
+
+
+    
+
+
+
 
 <div id="certifications"></div>
 
@@ -331,7 +351,7 @@
     <div class="resumeLeft">
     </div>
 
-    <div class="resumeMiddle">
+    <div class="resumeLeft">
 
         <object
           data="images/walt-ribeiro-resume-full-stack-developer-january-2020.pdf"
@@ -348,8 +368,8 @@
         </object>
     </div>
 
-    <div class="resumeRight">
-        <p><---- Hover here for print menu</p>
+    <div class="resumeLeft">
+        <p><---<br>Hover<br>here<br>for<br>print<br>menu</p>
     </div>
     
 </div>

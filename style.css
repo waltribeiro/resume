@@ -61,12 +61,131 @@ strong {
   font-weight : 1000;
 }
 
-span.stuff {
+span.boldWords {
   color       : #000000;
-  /* background-color: #ffffff; */
   font-weight : 900;
   margin      : 0px 0px 0px 0px;
   padding     : 0px 0px 0px 0px;
+}
+
+.projectsAll1 {
+  display: flex;
+  margin           : 20px;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projectsAll2 {
+  display: flex;
+  margin           : 20px;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projectsAll3 {
+  display: flex;
+  margin           : 20px;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projectsDescriptionDiv1 {
+  color            : #000000;
+  margin           : auto;
+  font-weight      : 300;
+  background-color : #ffffff;
+}
+
+.projectsDescriptionDiv2 {
+  color            : #000000;
+  margin           : auto;
+  font-weight      : 300;
+  background-color : #ffffff;
+}
+
+.projectsDescriptionDiv3 {
+  color            : #000000;
+  margin           : auto;
+  font-weight      : 300;
+  background-color : #ffffff;
+}
+
+.projectsImageDiv1 {
+  margin : auto;
+  flex: 0;
+}
+
+.projectsImageDiv2 {
+  margin : auto;
+  flex: 0;
+}
+
+.projectsImageDiv3 {
+  margin : auto;
+  flex: 0;
+}
+
+.projectsButtonsContainer1 {
+  display: flex;
+  justify-content: center;
+}
+
+.projectsButtonsContainer2 {
+  display: flex;
+  justify-content: center;
+}
+
+.projectsButtonsContainer3 {
+  display: flex;
+  justify-content: center;
+}
+
+.projectsButtonsItem1 {
+  margin: auto;
+  flex: 1;
+}
+
+.projectsButtonsItem2 {
+  margin: auto;
+  flex: 1;
+}
+
+.projectsButtonsItem3 {
+  margin: auto;
+  flex: 1;
+}
+
+.projectsButtonsItem4 {
+  margin: auto;
+  flex: 1;
+}
+
+.projectsButtonsItem5 {
+  margin: auto;
+  flex: 1;
+}
+
+.projectsButtonsItem6 {
+  margin: auto;
+  flex: 1;
+}
+
+.projectsButtonsItem7 {
+  margin: auto;
+  flex: 1;
+}
+
+.projectsButtonsItem8 {
+  margin: auto;
+  flex: 1;
+}
+
+.projectsButtonsItem9 {
+  margin: auto;
+  flex: 1;
 }
 
 .buttons {
@@ -106,6 +225,7 @@ span.stuff {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .certsSmall {
@@ -115,6 +235,7 @@ span.stuff {
 }
 
 .certsSmall:hover {
+  margin: auto;
   transform          : rotate(0deg) scale(1.3);
   transition         : 0.30s;
   -webkit-transition : 0.30s;
@@ -141,16 +262,32 @@ span.stuff {
   background-color: #ff0062;
 }
 
+.headerAll {
+display: flex;
+flex: nowrap;
+background-color: black;
+}
+
+.headerWalt {
+margin: auto;
+order: 0;
+}
+
+.headerCanvas {
+  margin: auto;
+  order: 1;
+}
+  
 .headerText {
   background-color : #ff0062;
   font-family      : 'Helvetica';
   text-transform   : uppercase;
   font-size        : 34px;
-  font-weight      : 400;
+  font-weight      : 900;
   color            : #000000;
-  padding-top      : 10px 0px 10px 9px;
-  text-align       : center;
-  width            : 100%;
+  padding      : 10px 0px 10px 0px;
+display: flex;
+justify-content: center;
 }
 
 .headerLink:after {
@@ -171,69 +308,32 @@ span.stuff {
   background: #3bf163;
 }
 
-.imageFunction {
-  margin-left  : auto;
-  margin-right : auto;
-  width        : 60px;
-}
-
-.projectImage {
-  width          : 300px;
-  vertical-align : middle;
-  margin-left    : 25px;
-  margin-top     : 25px;
-  opacity        : 1.0;
-}
-
-.projectsContainer {
-  height: 800px;
-}
-
-.projectsDivLeft {
-  float            : left;
-  height           : 230px;
-  color            : #000000;
-  margin-top       : 10px;
-  font-weight      : 100;
-  background-color : #ffffff;
-  width            : 25%;
-}
-
-.projectsDivRight {
-  float            : left;
-  height           : 230px;
-  margin-left      : 0px;
-  margin-top       : 20px;
-  color            : #000000;
-  vertical-align   : top;
-  font-weight      : 100;
-  background-color : #ffffff;
-  width            : 75%;
-  }
-
 .resumeAll {
   display: flex;
   height           : 1100px;
   background-color : #000000;
-  flex-direction: row;
-  flex-wrap: nowrap;  
+  flex-wrap: nowrap;
  }
 
 .resumeLeft {
+  font-size : 26px;
   color  : #3bf163;
   margin : auto;
+  flex-grow: 0;
 }
 
 .resumeMiddle {
+  font-size : 26px;
   color  : #3bf163;
   margin : auto;
+  flex-grow: 1;
 }
 
 .resumeRight {
   font-size : 26px;
   color     : #3bf163;
   margin    : auto;
-
+  flex-grow: 0;
 }
 
 
