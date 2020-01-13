@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
- <!-- smooth ID scrolling jquery -->
-     <script type='text/javascript' language='javascript' src='jquery-v1-4-2-min.js'></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <!-- smooth ID scrolling jquery -->
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="jquery-v1-4-2-min.js"
+    ></script>
 
     <title>Walt Ribeiro's Resume</title>
-    
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!--
 
     things to fix:
@@ -24,70 +29,69 @@
 3.) does the site even look good?
 4.) does it matter if my contact form isn't hard-coded?
 5.) why does my website's resume PDF look horrible on mobile but OK on desktop
+6.) why are the images in "other" not matching their green backgrounds?
 
 -->
 
-
     <header class="header sticky sticky--top js-header">
+      <div class="grid">
+        <nav class="navigation">
+          <ul class="navigationList navigationListInline">
+            <li class="navigationItem">
+              <h3>
+                <a href="#top" class="is-active">Home</a>
+              </h3>
+            </li>
 
-        <div class="grid">
-      
-            <nav class="navigation">
-                <ul class="navigationList navigationListInline">
-                    <li class="navigationItem">
-                        <h3>
-                            <a href="#top" class="is-active">Home</a>
-                        </h3>
-                    </li>
+            <li class="navigationItem">
+              <h3>
+                <a target="_blank" href="https://github.com/waltribeiro"
+                  >Github</a
+                >
+              </h3>
+            </li>
 
-                    <li class="navigationItem">
-                        <h3>
-                            <a target="_blank" href="https://github.com/waltribeiro">Github</a>
-                        </h3>
-                    </li>
-                    
-                    <li class="navigationItem">
-                        <h3>
-                            <a target="_blank" href="https://www.linkedin.com/in/waltribeiro/">Linkedin</a>
-                        </h3>
-                    </li>
-                    
-                    <li class="navigationItem">
-                        <h3>
-                            <a href="#resume">Resume</a>
-                        </h3>
-                    </li>
-                    
-                    <li class="navigationItem">
-                        <h3>
-                            <a href="#contact">Contact</a>
-                        </h3>
-                    </li>
-                </ul>
-            </nav>
-      
-        </div>
-      
+            <li class="navigationItem">
+              <h3>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/waltribeiro/"
+                  >Linkedin</a
+                >
+              </h3>
+            </li>
+
+            <li class="navigationItem">
+              <h3>
+                <a href="#resume">Resume</a>
+              </h3>
+            </li>
+
+            <li class="navigationItem">
+              <h3>
+                <a href="#contact">Contact</a>
+              </h3>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-      
+
     <!-- <main class="main">
         <div class="grid">
         </div>
     </main> -->
 
-     <!-- inspired by https://twitter.com/Dave_Conner-->
+    <!-- inspired by https://twitter.com/Dave_Conner-->
 
-       
-        <div class="finalFlex">
-            <p class="boldWords" style="font-size: 24px;color:white" >WALT RIBEIRO</p>
-            <p class="boldWords" style="font-size: 24px;color:white">SOFTWARE ENGINEER</p>
-        </div>
-       
+    <div class="finalFlex">
+      <p class="boldWords" style="font-size: 24px;color:white">WALT RIBEIRO</p>
+      <p class="boldWords" style="font-size: 24px;color:white">
+        SOFTWARE ENGINEER
+      </p>
+    </div>
 
-
-
-
-<!-- <div class="headerAll">
+    <!-- <div class="headerAll">
 
         <div class="headerWalt">
         WALT RIBEIRO
@@ -99,280 +103,238 @@
 
 </div> -->
 
+    <div class="projectsAll" id="app2">
+      <!---------- image 2 ---------->
 
-<div class="projectsAll" id="app2">
+      <div class="projectsImageDiv">
+        <img class="projectsImageWidth" src="images/app1.png" />
+      </div>
 
-    <!---------- image 2 ---------->
-    
-    <div class="projectsImageDiv">
-        <img
-          class="projectsImageWidth"
-          src="images/app1.png"
-        >
-    </div>       
-     
-    <!---------- description 2 ---------->
-    
-    <div class="projectsDescriptionDiv">
-        <span class="boldWords" style="font-size: 24px"
-        >PHLASK</span>
-        <br>
-        • An open-sourced non-profit project that locates all the free water sources in "PHL-ladelphia"
-        <br>
-        • Used <span class="boldWords">React</span>, <span class="boldWords">SQL</span>, and <span class="boldWords">Google's RestAPI</span> to build the address bar for mobile
-        <br>
-        • Deloyed using <span class="boldWords">Yarn</span> and <span class="boldWords">Docker</span>
-        <br>
-        <br>
-        
+      <!---------- description 2 ---------->
+
+      <div class="projectsDescriptionDiv">
+        <span class="boldWords" style="font-size: 24px">PHLASK</span>
+        <br />
+        • An open-sourced non-profit project that locates all the free water
+        sources in "PHL-ladelphia"
+        <br />
+        • Used <span class="boldWords">React</span>,
+        <span class="boldWords">SQL</span>, and
+        <span class="boldWords">Google's RestAPI</span> to build the address bar
+        for mobile
+        <br />
+        • Deloyed using <span class="boldWords">Yarn</span> and
+        <span class="boldWords">Docker</span>
+        <br />
+        <br />
+
         <div class="projectsButtonsContainer">
-            
-            <div
-                class="projectsButtonsItem"
+          <div class="projectsButtonsItem">
+            <a
+              class="myButtons"
+              href="add-website-here"
+              target="_blank"
+              rel="nofollow noopener"
+              >CODE</a
             >
-                <a
-                  class="myButtons"
-                  href="add-website-here"
-                  target="_blank"
-                  rel="nofollow noopener"
-                >CODE</a>
-            
-            </div>
+          </div>
 
-
-            <div
-                class="projectsButtonsItem"
+          <div class="projectsButtonsItem">
+            <a
+              class="myButtons"
+              href="https://github.com/phlask/phlask-map"
+              target="_blank"
+              rel="nofollow noopener"
+              >GITHUB</a
             >
-                <a
-                  class="myButtons"
-                  href="https://github.com/phlask/phlask-map"
-                  target="_blank"
-                  rel="nofollow noopener"
-                >GITHUB</a>
-            </div>
+          </div>
 
-
-            <div
-            class="projectsButtonsItem"
+          <div class="projectsButtonsItem">
+            <a
+              class="myButtons"
+              href="https://phlask.me/find-water"
+              target="_blank"
+              rel="nofollow noopener"
+              >WEBSITE</a
             >
-                <a class="myButtons"
-                  href="https://phlask.me/find-water"
-                  target="_blank"
-                  rel="nofollow noopener"
-                >WEBSITE</a>
-            </div>
-
+          </div>
         </div>
-           
+      </div>
     </div>
-    
-</div>
 
+    <div class="projectsAll" id="app2">
+      <!---------- image 2 ---------->
 
+      <div class="projectsImageDiv">
+        <img class="projectsImageWidth" src="images/app2.png" />
+      </div>
 
+      <!---------- description 2 ---------->
 
+      <div class="projectsDescriptionDiv">
+        <span class="boldWords" style="font-size: 24px">PHLASK</span>
+        <br />
+        • An open-sourced non-profit project that locates all the free water
+        sources in "PHL-ladelphia"
+        <br />
+        • Used <span class="boldWords">React</span>,
+        <span class="boldWords">SQL</span>, and
+        <span class="boldWords">Google's RestAPI</span> to build the address bar
+        for mobile
+        <br />
+        • Deloyed using <span class="boldWords">Yarn</span> and
+        <span class="boldWords">Docker</span>
+        <br />
+        <br />
 
-
-
-
-
-<div class="projectsAll" id="app2">
-
-    <!---------- image 2 ---------->
-    
-    <div class="projectsImageDiv">
-        <img
-          class="projectsImageWidth"
-          src="images/app2.png"
-        >
-    </div>       
-     
-    <!---------- description 2 ---------->
-    
-    <div class="projectsDescriptionDiv">
-        <span class="boldWords" style="font-size: 24px"
-        >PHLASK</span>
-        <br>
-        • An open-sourced non-profit project that locates all the free water sources in "PHL-ladelphia"
-        <br>
-        • Used <span class="boldWords">React</span>, <span class="boldWords">SQL</span>, and <span class="boldWords">Google's RestAPI</span> to build the address bar for mobile
-        <br>
-        • Deloyed using <span class="boldWords">Yarn</span> and <span class="boldWords">Docker</span>
-        <br>
-        <br>
-        
         <div class="projectsButtonsContainer">
-            
-            <div
-                class="projectsButtonsItem"
+          <div class="projectsButtonsItem">
+            <a
+              class="myButtons"
+              href="add-website-here"
+              target="_blank"
+              rel="nofollow noopener"
+              >CODE</a
             >
-                <a
-                  class="myButtons"
-                  href="add-website-here"
-                  target="_blank"
-                  rel="nofollow noopener"
-                >CODE</a>
-            
-            </div>
+          </div>
 
-
-            <div
-                class="projectsButtonsItem"
+          <div class="projectsButtonsItem">
+            <a
+              class="myButtons"
+              href="https://github.com/phlask/phlask-map"
+              target="_blank"
+              rel="nofollow noopener"
+              >GITHUB</a
             >
-                <a
-                  class="myButtons"
-                  href="https://github.com/phlask/phlask-map"
-                  target="_blank"
-                  rel="nofollow noopener"
-                >GITHUB</a>
-            </div>
+          </div>
 
-
-            <div
-            class="projectsButtonsItem"
+          <div class="projectsButtonsItem">
+            <a
+              class="myButtons"
+              href="https://phlask.me/find-water"
+              target="_blank"
+              rel="nofollow noopener"
+              >WEBSITE</a
             >
-                <a class="myButtons"
-                  href="https://phlask.me/find-water"
-                  target="_blank"
-                  rel="nofollow noopener"
-                >WEBSITE</a>
-            </div>
-
+          </div>
         </div>
-           
+      </div>
     </div>
-    
-</div>
 
+    <div id="certificates"></div>
 
+    <div class="headerText">CERTIFICATIONS</div>
 
+    <a href="#certificates">
+      <div class="certsSmallAll" id="certsSmallAll">
+        <div class="certsSmall">
+          <img
+            width="25px"
+            src="images/certificate-biamp-tesiraforte.jpg"
+            alt="certificate-biamp-tesiraforte.jpg"
+            title="certificate-biamp-tesiraforte.jpg"
+            onclick="showImage('certificate-biamp-tesiraforte.jpg');"
+          />
+        </div>
 
+        <div class="certsSmall">
+          <img
+            width="25px"
+            src="images/certificate-clearone.jpg"
+            alt="certificate-clearone.jpg"
+            title="certificate-clearone.jpg"
+            onclick="showImage('certificate-clearone.jpg');"
+          />
+        </div>
 
+        <div class="certsSmall">
+          <img
+            width="25px"
+            src="images/certificate-qsc-qsys-control-101.jpg"
+            alt="certificate-qsc-qsys-control-101.jpg"
+            title="certificate-qsc-qsys-control-101.jpg"
+            onclick="showImage('certificate-qsc-qsys-control-101.jpg');"
+          />
+        </div>
 
+        <div class="certsSmall">
+          <img
+            width="25px"
+            src="images/certificate-osha-walt-ribeiro-scissor-lift-aerial-safety.jpg"
+            alt="certificate-osha-walt-ribeiro-scissor-lift-aerial-safety.jpg"
+            title="certificate-osha-walt-ribeiro-scissor-lift-aerial-safety.jpg"
+            onclick="showImage('certificate-osha-walt-ribeiro-scissor-lift-aerial-safety.jpg');"
+          />
+        </div>
 
+        <div class="certsSmall">
+          <img
+            width="25px"
+            src="images/certificate-biamp-voip.jpg"
+            alt="certificate-biamp-voip.jpg"
+            title="certificate-biamp-voip.jpg"
+            onclick="showImage('certificate-biamp-voip.jpg');"
+          />
+        </div>
 
+        <div class="certsSmall">
+          <img
+            width="25px"
+            src="images/certificate-qsc-qsys-video-101.jpg"
+            alt="certificate-qsc-qsys-video-101.jpg"
+            title="certificate-qsc-qsys-video-101.jpg"
+            onclick="showImage('certificate-qsc-qsys-video-101.jpg');"
+          />
+        </div>
 
+        <div class="certsSmall">
+          <img
+            width="25px"
+            src="images/certificate-audinate-dante-level-3.jpg"
+            alt="certificate-audinate-dante-level-3.jpg"
+            title="certificate-audinate-dante-level-3.jpg"
+            onclick="showImage('certificate-audinate-dante-level-3.jpg');"
+          />
+        </div>
+      </div>
+    </a>
+    <center>
+      <div class="certsBigAll" style="background-color:white">
+        <div class="certsBig" id="certsBig">
+          <img
+            width="85%"
+            id="currentImg"
+            src="images/certificate-biamp-tesiraforte.jpg"
+            alt="certificate-biamp-tesiraforte.jpg"
+            title="certificate-biamp-tesiraforte.jpg"
+          />
+        </div>
+      </div>
+    </center>
 
-<div id="certificates"></div>
+    <div class="headerText" id="resume">RESUME</div>
 
-<div class="headerText">CERTIFICATIONS</div>
+    <div class="headerText3">
+      <a
+        target="_blank"
+        href="https://waltribeiro.github.io/resume/images/walt-ribeiro-resume-full-stack-developer-january-2020.pdf"
+      >
+        PDF download - Click here</a
+      >
+    </div>
 
-<a href="#certificates">
-
-<div class="certsSmallAll" id="certsSmallAll">
-
-    <div class="certsSmall">
+    <div class="resumeAll">
+      <div class="resumeItem">
         <img
-          width="25px"
-          src="images/certificate-biamp-tesiraforte.jpg"
-          alt="certificate-biamp-tesiraforte.jpg"
-          title="certificate-biamp-tesiraforte.jpg"
-          onclick="showImage('certificate-biamp-tesiraforte.jpg');"
+          width="90%"
+          height="90%"
+          src="images/walt-ribeiro-resume-full-stack-developer-january-2020-2.jpg"
         />
+      </div>
     </div>
 
-    <div class="certsSmall">
-        <img
-          width="25px"
-          src="images/certificate-clearone.jpg"
-          alt="certificate-clearone.jpg"
-          title="certificate-clearone.jpg"
-          onclick="showImage('certificate-clearone.jpg');"
-        />
-    </div>
-
-    <div class="certsSmall">
-        <img
-          width="25px"
-          src="images/certificate-qsc-qsys-control-101.jpg"
-          alt="certificate-qsc-qsys-control-101.jpg"
-          title="certificate-qsc-qsys-control-101.jpg"
-          onclick="showImage('certificate-qsc-qsys-control-101.jpg');"
-        />
-    </div>
-    
-    <div class="certsSmall"> 
-        <img
-          width="25px"
-          src="images/certificate-osha-walt-ribeiro-scissor-lift-aerial-safety.jpg" alt="certificate-osha-walt-ribeiro-scissor-lift-aerial-safety.jpg" title="certificate-osha-walt-ribeiro-scissor-lift-aerial-safety.jpg"
-          onclick="showImage('certificate-osha-walt-ribeiro-scissor-lift-aerial-safety.jpg');"
-        />
-    </div>
-
-    <div class="certsSmall">
-        <img
-          width="25px"
-          src="images/certificate-biamp-voip.jpg"
-          alt="certificate-biamp-voip.jpg"
-          title="certificate-biamp-voip.jpg"
-          onclick="showImage('certificate-biamp-voip.jpg');"
-        />
-    </div>
-
-    <div class="certsSmall">
-        <img
-          width="25px"
-          src="images/certificate-qsc-qsys-video-101.jpg"
-          alt="certificate-qsc-qsys-video-101.jpg"
-          title="certificate-qsc-qsys-video-101.jpg"
-          onclick="showImage('certificate-qsc-qsys-video-101.jpg');"
-        />
-    </div>
-
-    <div class="certsSmall">
-        <img
-          width="25px"
-          src="images/certificate-audinate-dante-level-3.jpg"
-          alt="certificate-audinate-dante-level-3.jpg"
-          title="certificate-audinate-dante-level-3.jpg"
-          onclick="showImage('certificate-audinate-dante-level-3.jpg');"
-        />
-    </div>
-    
-</div>
-
-</a>
-<center>
-<div class="certsBigAll" style="background-color:white">
-
-    <div class="certsBig" id="certsBig">
-        <img
-          width="85%"
-          id="currentImg"
-          src="images/certificate-biamp-tesiraforte.jpg"
-          alt="certificate-biamp-tesiraforte.jpg"
-          title="certificate-biamp-tesiraforte.jpg"
-        />
-        
-    </div>
-
-</div>
-
-</center>
-
-<div class="headerText" id="resume">RESUME</div>
-
-<div
-  class="headerText"
-  style="background-color:rgb(0, 0, 0);font-size:20px;padding:20px 20px 20px 20px"
->
-    <a
-      target="_blank"
-      href="https://waltribeiro.github.io/resume/images/walt-ribeiro-resume-full-stack-developer-january-2020.pdf"
-    >
-    PDF download - Click here</a>
-</div>
-
-<div class="headerText" style="background-color:rgb(255, 255, 255)" id="resume">
-    <img
-      width="90%"
-      src="images/walt-ribeiro-resume-full-stack-developer-january-2020-2.jpg"
-    >
-</div>
-
-
-<div style="text-align:center">
-<!-- I have 4,000 points on Treehouse
+    <!-- <div style="text-align:center">
+       I have 4,000 points on Treehouse
     <br>
     <img
       width="128px"
@@ -386,61 +348,78 @@
       width="128px"
       src="https://achievement-images.teamtreehouse.com/badges_JavaScript_MEANapp_Stage1.png"
     >
+
+    </div>
 -->
-</div>
+    <div class="headerText" id="other">OTHER</div>
 
+    <div class="otherAll">
+      <div class="otherItemDescription">
+        <p>
+          I was on the team that installed the Art Museum's audio system, touch
+          panels, speaker, nd video projectors for thei "Designs For Differnet
+          Futures' Exhibit"
+        </p>
+      </div>
 
+      <div class="otherItem">
+        <img
+          width="700px"
+          src="images/walt-ribeiro-additional-documents-1.png"
+        />
+      </div>
 
+      <br />
 
-<div class="headerText" id="other">OTHER</div>
+      <div class="otherItemDescription">
+        <p>
+          I was on the team that installed the Art Museum's audio system, touch
+          panels, speaker, nd video projectors for thei "Designs For Differnet
+          Futures' Exhibit"
+        </p>
+      </div>
 
-<div class="otherAll">
+      <div class="otherItem">
+        <img
+          width="700px"
+          src="images/walt-ribeiro-additional-documents-2.png"
+        />
+      </div>
 
-    <div class="otherItemDescription">
-        <p>I was on the team that installed the Art Museum's audio system, touch panels, speaker, nd video projectors for thei "Designs For Differnet Futures' Exhibit"</p>
+      <br />
+
+      <div class="otherItemDescription">
+        <p>
+          I was on the team that installed the Art Museum's audio system, touch
+          panels, speaker, nd video projectors for thei "Designs For Differnet
+          Futures' Exhibit"
+        </p>
+      </div>
+
+      <div class="otherItem">
+        <img
+          width="700px"
+          src="images/walt-ribeiro-additional-documents-3.png"
+        />
+      </div>
+
+      <br />
     </div>
 
-    <div class="otherItem">
-        <img width="700px" src="images/walt-ribeiro-additional-documents-1.png">
+    <p id="contact"></p>
+    <p class="headerText">CONTACT</p>
+
+    <div
+      class="headerText3"
+      style="background-color:rgb(0, 0, 0);font-size:20px;padding:20px 20px 20px 20px"
+    >
+      <p>
+        Email <a href="mailto:w@waltrib.com">w@waltrib.com</a> or use the form
+        below
+      </p>
     </div>
 
-    <br>
-
-    <div class="otherItemDescription">
-        <p>I was on the team that installed the Art Museum's audio system, touch panels, speaker, nd video projectors for thei "Designs For Differnet Futures' Exhibit"</p>
-    </div>
-
-    <div class="otherItem">
-        <img width="700px" src="images/walt-ribeiro-additional-documents-2.png">
-    </div>
-
-    <br>
-
-    <div class="otherItemDescription">
-        <p>I was on the team that installed the Art Museum's audio system, touch panels, speaker, nd video projectors for thei "Designs For Differnet Futures' Exhibit"</p>
-    </div>
-
-    <div class="otherItem">
-        <img width="700px" src="images/walt-ribeiro-additional-documents-3.png">
-    </div>
-
-    <br>
-
-</div>
-
-
-<p id="contact"></p>
-<p class="headerText">CONTACT</p>
-
-<div
-  class="headerText2"
-  style="background-color:rgb(0, 0, 0);font-size:20px;padding:20px 20px 20px 20px"
->
-    <p>Email <a href="mailto:w@waltrib.com">w@waltrib.com</a> or use the form below</p>
-</div>
-
-
-<!-- <div>
+    <!-- <div>
 
 ///////// Formspree contact form
 
@@ -455,72 +434,40 @@
 </main>
 </div>  -->
 
+    <div class="contactFormAll">
+      <div class="contactForm">
+        <form
+          class="contact-form"
+          action="https://formspree.io/xjvygozq"
+          method="post"
+        >
+          <input type="text" id="name" name="name" placeholder="Name" />
 
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Email address"
+          />
 
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Your message"
+            style="height:200px"
+          ></textarea>
 
-<div class="contactFormAll">
-    <div class="contactForm">
-        <form class="contact-form" action="https://formspree.io/xjvygozq" method="post">
-            <input
-              type="text"
-              id="fname"
-              name="firstname"
-              placeholder="First name"
-            >
-
-            <input
-              type="text"
-              id="lname"
-              name="lastname"
-              placeholder="Last name"
-            >
-
-            <label for="country">Country</label>
-            <select id="country" name="country">
-            <option value="usa">USA</option>
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">South Korea</option>
-            </select>
-
-            <label for="subject">Subject</label>
-            <textarea
-              id="subject"
-              name="subject"
-              placeholder="Your message here"
-              style="height:200px"
-            >
-            </textarea>
-
-            <input
-              style="margin:auto"
-              type="submit"
-              value="Submit"
-            >
+          <input style="margin:auto" type="submit" value="Submit" />
         </form>
+      </div>
     </div>
-</div>
 
+    <script src="script.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="script.js"></script>
-
-<div>
-    <footer>
-        © Walt Ribeiro 2020. Designed and coded while listening to ♫. 
-    </footer>
-</div>
-</body>
-
+    <div>
+      <footer>
+        Designed and coded by Walt Ribeiro
+      </footer>
+    </div>
+  </body>
 </html>
