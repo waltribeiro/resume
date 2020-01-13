@@ -76,7 +76,9 @@ span.boldWords {
   padding     : 20px 20px 20px 20px;
   flex-direction: column;
   align-content: flex-start;
+  font-weight: 900;
 }
+
 .projectsAll {
   display : -webkit-box;
   display : -ms-flexbox;
@@ -90,7 +92,7 @@ span.boldWords {
 
 .projectsDescriptionDiv {
   color            : #000000;
-  margin           : auto;
+  margin           : 0px;
   font-weight      : 300;
   background-color : #ffffff;
 }
@@ -134,7 +136,7 @@ span.boldWords {
   height: 100%;
   justify-content: center;
   text-align: center;
-  width: 100%;
+  width: 70%;
   }
 
 .myButtons:hover {
@@ -284,14 +286,14 @@ span.boldWords {
   font-size : 26px;
   color  : #3bf163;
   margin : auto;
-  flex: 1;
+  flex: 0;
 }
 
 .resumeMiddle {
   font-size : 26px;
   color  : #3bf163;
   margin : auto;
-  flex: 1;
+  flex: 0;
 }
 
 .resumeRight {
@@ -373,7 +375,7 @@ span.boldWords {
   font-size: 20px;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 630px) {
   .grid {
     font-size: 10px;
   }
