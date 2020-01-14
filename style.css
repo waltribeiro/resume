@@ -40,6 +40,7 @@ body {
   min-height: auto;
   max-width: 1000px;
   margin: auto;
+  background-color: #9cb0b3;
 }
 
 footer {
@@ -74,9 +75,22 @@ span.boldWords {
   display: flex;
   padding: 20px 20px 20px 20px;
   flex-direction: column;
-  align-content: flex-start;
-  font-weight: 900;
+  background: black;
 }
+
+
+.gradientTime {
+  display: inline-block;
+  margin: 0 auto;
+  font-weight: 900;
+  font-size: 5rem;
+  background: linear-gradient(330deg, #e05252 25%, #52e0e0 50%,#f3b034 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Gotham Rounded";
+  src: url(team-treehouse-gotham-rounded-book.ttf) format("truetype");
+
+  }
 
 .projectsAll {
   display: -webkit-box;
@@ -631,3 +645,20 @@ figure:hover + span {
     flex-wrap: wrap;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
