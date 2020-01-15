@@ -76,20 +76,22 @@ span.boldWords {
   padding: 20px 20px 20px 20px;
   flex-direction: column;
   background: black;
+  color: #ffffff;
+  font-size:36px;
+  font-weight: 900;
 }
 
+.finalFlexBlock {
+  margin: auto;
+}
 
 .gradientTime {
-  display: inline-block;
-  margin: 0 auto;
+  margin: auto;
   font-weight: 900;
-  font-size: 5rem;
-  background: linear-gradient(330deg, #e05252 25%, #52e0e0 50%,#f3b034 100%);
+  font-size:36px;
+  background: linear-gradient(330deg, #e0a052 0%, #52e0e0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Gotham Rounded";
-  src: url(team-treehouse-gotham-rounded-book.ttf) format("truetype");
-
   }
 
 .projectsAll {
