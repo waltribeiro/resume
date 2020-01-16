@@ -142,7 +142,7 @@ span.boldWords {
   text-transform: uppercase;
   background: rgb(34, 34, 34 0);
   padding: 0px;
-  border: 4px solid #ff2c75 !important;
+  border: 4px solid #299bb0 !important;
   border-radius: 6px;
   transition: all 0.3s ease 0s;
   font-weight: 900;
@@ -157,9 +157,9 @@ span.boldWords {
 .myButtons:hover {
   color: #000000 !important;
   border-radius: 150px;
-  border-color: #ff2c75 !important;
+  border-color: #299bb0 !important;
   transition: all 0.3s ease 0s;
-  background: #ff2c75;
+  background: #299bb0;
   font-weight: 900;
   display: flex;
   flex-direction: row;
@@ -245,7 +245,7 @@ span.boldWords {
 }
 
 .headerText {
-  background-color: #ff0062;
+  background-color: #e4a942;
   font-family: "Helvetica";
   font-size: 34px;
   font-weight: 900;
@@ -447,7 +447,7 @@ span.boldWords {
 
 .navigation a:hover {
   display: block;
-  background-color: #ff0062;
+  background-color: #299bb0;
   color: rgb(255, 255, 255);
   border-radius: 999px;
   padding-left: 0.5em;
@@ -455,7 +455,7 @@ span.boldWords {
 }
 
 .navigation .is-active {
-  background-color: #000;
+  background-color: #299bb0;
   color: #fff;
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -504,7 +504,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #ff0062;
+  background-color: #299bb0;
 }
 
 .contactFormAll {
