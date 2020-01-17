@@ -10,22 +10,18 @@ $("a[href^='#']").click(function(e) {
 	} /* speed */ );
 });
 
-
-
-
 ///////////////////////// certifications
 
 function showImage(imgName) {
-    var curImage = document.getElementById('currentImg');
+    var bigImage = document.getElementById('bigImg');
     var thePath = 'images/';
     var theSource = thePath + imgName;
-    curImage.src = theSource;
-    curImage.alt = imgName;
-    curImage.title = imgName;
+    bigImage.src = theSource;
+    bigImage.alt = imgName;
+    bigImage.title = imgName;
  }
 
-
-///////////////////////// certifications
+///////////////////////// navigation
 
 function throttle(fn, delay) {
     let last;
@@ -60,17 +56,6 @@ function throttle(fn, delay) {
   const $$header = document.querySelector('.js-header');
   
   window.addEventListener('scroll', throttle(onScroll, 25));
-  
-
-
-
-
-
-
-
-
-  
-
   
 // Oil Painting
 // Ported from flash project - http://wonderfl.net/c/92Ul
@@ -164,9 +149,5 @@ function OilPainting(){
   
   var app = new OilPainting();
   app.initialize();
-
-
-
-
 
 
