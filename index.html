@@ -1,445 +1,1063 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap"
-      rel="stylesheet"
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
-    <!-- smooth ID scrolling jquery -->
-    <script
-      type="text/javascript"
-      language="javascript"
-      src="jquery-v1-4-2-min.js"
-    ></script>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
     <title>Walt Ribeiro's Resume</title>
+
+    <!-- Custom fonts for this theme -->
+    <link href="reset.css" rel="stylesheet" type="text/css" />
+    <link
+      href="vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.css" rel="stylesheet" />
   </head>
 
-  <body>
-    <!--
-
-USE CSS GRIDS
--->
-
-    <header class="header sticky sticky--top js-header">
-      <div class="grid">
-        <nav class="navigation">
-          <ul class="navigationList navigationListInline">
-            <li class="navigationItem">
-              <h3>
-                <a href="#top" class="is-active">Home</a>
-              </h3>
+  <body id="page-top">
+    <!-- Navigation -->
+    <nav
+      class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
+      id="mainNav"
+    >
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"
+          >Walt Ribeiro</a
+        >
+        <button
+          class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#projects"
+                >Projects</a
+              >
             </li>
 
-            <li class="navigationItem">
-              <h3>
-                <a target="_blank" href="https://github.com/waltribeiro"
-                  >Github</a
-                >
-              </h3>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#experience"
+                >Experience</a
+              >
             </li>
 
-            <li class="navigationItem">
-              <h3>
-                <a
-                  target="_blank"
-                  href="https://www.linkedin.com/in/waltribeiro/"
-                  >Linkedin</a
-                >
-              </h3>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#certifications"
+                >Certifications</a
+              >
             </li>
 
-            <li class="navigationItem">
-              <h3>
-                <a href="#resume">Resume</a>
-              </h3>
+            <!-- <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" target="_blank" href="http://git.waltrib.com">Github</a>
+          </li>
+
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" target="_blank" href="http://linkedin.waltrib.com">Linkedin</a>
+          </li> -->
+
+            <li class="list-inline-item">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                target="_blank"
+                href="http://github.waltrib.com"
+              >
+                <i class="fab fa-github fa-2x mr-0"></i
+              ></a>
             </li>
 
-            <li class="navigationItem">
-              <h3>
-                <a href="#contact">Contact</a>
-              </h3>
+            <li style="color: Tomato" class="list-inline-item">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                target="_blank"
+                href="http://linkedin.waltrib.com"
+              >
+                <i class="fab fa-linkedin fa-2x mr-0"></i
+              ></a>
             </li>
           </ul>
-        </nav>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Masthead -->
+    <header class="masthead bg-info text-white text-center" id="contact">
+      <div class="container d-flex align-items-center flex-column">
+        <!-- Masthead Avatar Image -->
+        <!-- <img class="masthead-avatar mb-5" src="img/avataaars.svg" alt=""> -->
+
+        <!-- Masthead Heading -->
+        <h2 class="masthead-heading mb-0">
+          <span class="badge badge-secondary">&nbsp;w@waltrib.com&nbsp;</span>
+          <span class="badge badge-secondary">&nbsp;(240) 487-9258&nbsp;</span>
+          <span class="badge badge-secondary">&nbsp;Philadelphia&nbsp;</span>
+        </h2>
+
+        <!-- Icon Divider -->
+        <!-- <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div> -->
+
+        <!-- Masthead Subheading -->
+        <!-- <p class="masthead-subheading font-weight-light mb-0">w@waltrib.com &bull; 240-487-9258</p> -->
       </div>
     </header>
 
-    <!-- <main class="main">
-        <div class="grid">
-        </div>
-    </main> -->
+    <section class="page-section bg-info text-white mb-0" id="skills">
+      <div class="container d-flex align-items-center flex-column">
+        <ul class="list-inline justify-content-center">
+          <li class="list-inline-item">
+            <i class="fab fa-python fa-5x mr-1"></i>
+          </li>
 
-    <!-- inspired by https://twitter.com/Dave_Conner-->
+          <li class="list-inline-item">
+            <i class="fab fa-react fa-5x mr-1"></i>
+          </li>
 
-    <div class="finalFlex">
-      <p class="finalFlexBlock">WALT RIBEIRO</p>
-      <p class="gradientTime">MERN Stack & Python Engineer</p>
-    </div>
+          <li class="list-inline-item">
+            <i class="fab fa-node-js fa-5x mr-2"></i>
+          </li>
 
-    <!-- <div class="headerAll">
+          <li class="list-inline-item">
+            <i class="fas fa-database fa-4x mr-1"></i>
+          </li>
 
-        <div class="headerWalt">
-        WALT RIBEIRO
-    </div>
-
-    <div class="headerWalt">
-    SOFTWARE ENGINEER
-    </div>
-
-</div> -->
-
-    <div class="projectsAll" id="app2">
-      <!---------- image 2 ---------->
-
-      <div class="projectsImageDiv">
-        <img class="projectsImageWidth" src="images/app1.png" />
+          <li class="list-inline-item">
+            <i class="fab fa-docker fa-5x mr-1"></i>
+          </li>
+        </ul>
       </div>
+    </section>
 
-      <!---------- description 2 ---------->
+    <!-- About Section -->
+    <section class="page-section bg-secondary text-white mb-0" id="projects">
+      <div class="container">
+        <!-- About Section Heading -->
+        <h2 class="page-section-heading text-center text-white">PROJECTS</h2>
+        <br />
+        <!-- Icon Divider -->
+        <!-- <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div> -->
 
-      <div class="projectsDescriptionDiv">
-        <span class="boldWords" style="font-size: 24px">PHLASK</span>
-        <br />
-        • An open-sourced non-profit project that locates all the free water
-        sources in Philadelphia
-        <br />
-        • Implemented <span class="boldWords">React</span>,
-        <span class="boldWords">SQL</span>, and
-        <span class="boldWords">Google's RestAPI</span> to build mobile search bar
-        <br />
-        • Deployed using <span class="boldWords">Yarn</span> and
-        <span class="boldWords">Docker</span>
-        <br />
-        <br />
-
-        <div class="projectsButtonsContainer">
-          <div class="projectsButtonsItem">
-            <a
-              class="myButtons"
-              href="add-website-here"
-              target="_blank"
-              rel="nofollow noopener"
-              >CODE</a
-            >
+        <!-- About Section Content -->
+        <div class="row">
+          <div class="col-lg-2 ml-auto">
+            <img
+              width="150px"
+              src="img/portfolio/cabin-square.png"
+              class="rounded-circle"
+            />
           </div>
+          <div class="col-lg-10 mr-auto">
+            <p class="lead">
+              • Phlask is a volunteer project that locates all the free water
+              sources in Philadelphia
+            </p>
+            <p class="lead">
+              • Implemented React, SQL, and Google's RestAPI to build mobile
+              search bar
+            </p>
 
-          <div class="projectsButtonsItem">
             <a
-              class="myButtons"
+              class="btn btn-lg btn-outline-light"
+              target="_blank"
               href="https://github.com/phlask/phlask-map"
-              target="_blank"
-              rel="nofollow noopener"
-              >GITHUB</a
             >
-          </div>
-
-          <div class="projectsButtonsItem">
+              <i class="fas fa-info mr-2"></i>
+              Github
+            </a>
             <a
-              class="myButtons"
-              href="https://phlask.me/find-water"
+              class="btn btn-lg btn-outline-light"
               target="_blank"
-              rel="nofollow noopener"
-              >WEBSITE</a
+              href="http://github.com/waltribeiro"
             >
+              <i class="fas fa-code mr-2"></i>
+              Code
+            </a>
+          </div>
+        </div>
+        <br /><br /><br />
+        <div class="row">
+          <div class="col-lg-2 ml-auto">
+            <img
+              width="150px"
+              src="img/portfolio/cake-square.png"
+              class="rounded-circle"
+            />
+          </div>
+          <div class="col-lg-10 mr-auto">
+            <p class="lead">• Built a piano using Javascript</p>
+            <p class="lead">
+              • Phlask is a crowdsourced map that locates all the free water
+              fountains in Philadelphia
+            </p>
+            <a
+              class="btn btn-lg btn-outline-light"
+              target="_blank"
+              href="http://github.com/waltribeiro"
+            >
+              <i class="fas fa-info mr-2"></i>
+              Github
+            </a>
+            <a
+              class="btn btn-lg btn-outline-light"
+              target="_blank"
+              href="http://github.com/waltribeiro"
+            >
+              <i class="fas fa-code mr-2"></i>
+              Code
+            </a>
+          </div>
+        </div>
+
+        <!-- About Section Button -->
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="page-section bg-info text-white mb-0" id="experience">
+      <div class="container">
+        <!-- About Section Heading -->
+
+        <h2 class="page-section-heading text-center text-white">EXPERIENCE</h2>
+
+        <br />
+
+        <!-- About Section Content -->
+
+        <div class="row">
+          <div class="col-lg-10 mr-auto">
+            <p class="lead">
+              <strong
+                >AV / IT Professor, Camden County College <br />Blackwood, NJ
+                <br />05/2017 - Present</strong
+              >
+              <br />• Taught 3 courses: MIDI Engineering; Fundamentals of Sound
+              Acoustics; Business of AV <br />• Generated 17% increase in event
+              bookings by creating AutoCAD drawings of theatre's equipment
+              <br />• Installations of Crestron, QSYS, and VoIPs; Terminate
+              cables XLR, RJ45, and RS232 to EIA-568B
+            </p>
+
+            <p>&nbsp;</p>
+
+            <p class="lead">
+              <strong
+                >Broadcast Engineer, Youtube Space LA <br />Los Angeles, CA
+                <br />06/2015 - 07/2016
+              </strong>
+              <br />• Control room engineer for the World 50 Expo, keynoted by
+              Mark Wahlberg <br />• Operate motion-tracked cameras; compile 3D
+              edits in post-production for client deliverables
+            </p>
+
+            <p>&nbsp;</p>
+
+            <p class="lead">
+              <strong>
+                Digital Production Strategist, Graywave
+                <br />New York, NY <br />06/2007 - 07/2019
+              </strong>
+              <br />• Co-developed PHP app for The IMA Awards; used by 50,000
+              bands for 24% increase in web traffic <br />• Audio engineer for
+              This American Life, Serial, and other top podcasts for Podtrac
+            </p>
+
+            <p>&nbsp;</p>
+
+            <p class="lead">
+              <strong>
+                University Of Pennsylvania
+                <br />Full Stack MERN Bootcamp <br />04/2020
+              </strong>
+              <br />• Coursework focused on Python and the MERN Stack: Mongo,
+              Express.js, React, and Node.js <br />• Created Github Pages
+              website using mobile-first approach as course pre-work
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="page-section bg-secondary text-white mb-0"
+      id="participation"
+    >
+      <div class="container">
+        <!-- About Section Heading -->
+
+        <h2 class="page-section-heading text-center text-white">
+          PARTICIPATION
+        </h2>
+
+        <!-- About Section Content -->
+
+        <div class="row">
+          <div class="col-lg-10 mr-auto">
+            <br />
+
+            <button
+              type="button"
+              class="btn btn-info bg-secondary"
+              style="text-align:left;width:400px"
+            >
+              <p class="lead">
+                Speaker at Software as Craft Event [<a
+                  href="https://www.meetup.com/Software-as-Craft-Philadelphia/events/267991831/"
+                  >link</a
+                >]
+              </p>
+            </button>
+
+            <button
+              type="button"
+              class="btn align-middle btn-info bg-secondary"
+              style="text-align:left;width:400px"
+            >
+              <p class="lead">
+                Linode's Global Day of Code Event [<a
+                  href="https://meetup.com/Software-as-Craft-Philadelphia/events/266306393/"
+                  >link</a
+                >]
+              </p>
+            </button>
+            <br /><br />
+            <button
+              type="button"
+              class="btn align-bottom btn-info bg-secondary"
+              style="text-align:left;width:400px"
+            >
+              <p class="lead">
+                Code For Philly Member [<a href="https://codeforphilly.org/"
+                  >link</a
+                >]
+              </p>
+            </button>
+
+            <button
+              type="button"
+              class="btn btn-info bg-secondary"
+              style="text-align:left;width:400px"
+            >
+              <p class="lead">
+                Hive76 Makerspace Contributor [<a href="https://hive76.org/"
+                  >link</a
+                >]
+              </p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="page-section bg-secondary text-white mb-0" id="participation"> -->
+    <!-- Portfolio Section -->
+    <section
+      class="page-section bg-info text-white portfolio mb-0"
+      id="certifications"
+    >
+      <div class="container">
+        <!-- Portfolio Section Heading -->
+        <h2 class="page-section-heading text-center text-white mb-0">
+          CERTIFICATIONS
+        </h2>
+        <br />
+        <!-- Icon Divider -->
+        <!-- <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div> -->
+
+        <!-- Portfolio Grid Items -->
+        <div class="row">
+
+
+
+          <!-- Portfolio Item 6 -->
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal6"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i .class="fas fa-plus fa-3x"></i>
+                  <p class="lead">Responsive Web Design<br />(Freecodecamp)
+                    <br>
+                    [<a href="https://www.freecodecamp.org/certification/waltribeiro/responsive-web-design" target="_blank">link</a>]
+                  </p>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/certifications/certificate-freecodecamp-responsive-web-design.png" alt="" />
+            </div>
+          </div>
+
+
+
+          <!-- Portfolio Item 1 -->
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal1"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i .class="fas fa-plus fa-1x"></i>
+                  <p class="lead">
+                    Python Automation
+                    <br />(Udemy)
+                    <br>[<a href="https://www.udemy.com/certificate/UC-LOPTHEJL/">link</a>]
+                  </p>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="img/certifications/certificate-udemy-automate-the-boring-stuff.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <!-- Portfolio Item 2 -->
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal2"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i .class="fas fa-plus fa-1x"></i>
+                  <p class="lead">
+                    Comp Science 101
+                    <br />(Udemy)
+                    <br>[<a href="https://www.udemy.com/certificate/UC-IO6IPNFN/">link</a>]
+                  </p>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="img/certifications/certificate-udemy-computer-science-101-master-the-theory-behind-programming.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <!-- Portfolio Item 3 -->
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal3"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i .class="fas fa-plus fa-1x"></i>
+                  <p class="lead">Control 101<br>QSYS</p>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="img/certifications/certificate-qsc-qsys-control-101.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <!-- Portfolio Item 4 -->
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal4"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i .class="fas fa-plus fa-1x"></i>
+                  <p class="lead">Pro Audio Specialist<br />ClearOne</p>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="img/certifications/certificate-clearone-pro-audio-specialist.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <!-- Portfolio Item 5 -->
+          <div class="col-md-6 col-lg-4">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal5"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i .class="fas fa-plus fa-3x"></i>
+                  <p class="lead">Dante<br>Audinate</p>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="img/certifications/certificate-audinate-dante-level-3.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+
+        </div>
+        <!-- /.row -->
+      </div>
+    </section>
+
+    <!-- About Section Button -->
+
+    <!-- Contact Section -->
+    <!-- <section class="page-section" id="contact">
+    <div class="container">
+
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact</h2>
+<br> -->
+    <!-- Icon Divider -->
+    <!-- <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div> -->
+
+    <!-- Contact Section Form
+           To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+
+    <!-- <div class="row">
+        <div class="col-lg-8 mx-auto">
+
+          <form name="sentMessage" id="contactForm" novalidate="novalidate">
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label>Name</label>
+                <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label>Email Address</label>
+                <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label>Phone Number</label>
+                <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label>Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <br>
+            <div id="success"></div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section> -->
+
+    <!-- Footer -->
+    <!-- <footer class="footer text-center">
+    <div class="container">
+      <div class="row"> -->
+
+    <!-- Footer Location -->
+    <!-- <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Location</h4>
+          <p class="lead mb-0">2215 John Daniel Drive
+            <br>Clark, MO 65243</p>
+        </div> -->
+
+    <!-- Footer Social Icons -->
+    <!-- <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Around the Web</h4>
+          <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <i class="fab fa-fw fa-twitter"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <i class="fab fa-fw fa-linkedin-in"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <i class="fab fa-fw fa-dribbble"></i>
+          </a>
+        </div> -->
+
+    <!-- Footer About Text -->
+    <!-- <div class="col-lg-4">
+          <h4 class="text-uppercase mb-4">About Freelancer</h4>
+          <p class="lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by
+            <a href="http://startbootstrap.com">Start Bootstrap</a>.<br>
+            <button type="button" class="btn btn-info">Info</button>
+          </p>
+        </div>
+      
+      </div>
+    </div>
+  </footer>
+-->
+
+    <!-- Copyright Section -->
+    <section class="copyright py-4 text-center text-white">
+      <div class="container">
+        <h2 class="masthead-heading mb-0">
+          <span class="badge badge-secondary">&nbsp;w@waltrib.com&nbsp;</span>
+          <span class="badge badge-secondary">&nbsp;(240) 487-9258&nbsp;</span>
+          <span class="badge badge-secondary">&nbsp;Philadelphia&nbsp;</span>
+        </h2>
+        <br />
+        <small>Copyright &copy; Walt Ribeiro 2020</small>
+      </div>
+    </section>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a
+        class="js-scroll-trigger d-block text-center text-white rounded"
+        href="#page-top"
+      >
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Portfolio Modal 1 -->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="portfolioModal1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title -->
+                  <h2
+                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                  >
+                    Python Automation
+                  </h2>
+                  <br />
+                  <!-- Icon Divider -->
+                  <!-- <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div> -->
+                  <!-- Portfolio Modal - Image -->
+                  <img
+                    class="img-fluid rounded mb-5"
+                    src="img/certifications/certificate-udemy-automate-the-boring-stuff.jpg"
+                    alt=""
+                  />
+                  <!-- Portfolio Modal - Text -->
+                  <p class="mb-5"></p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-
-    <div id="certificates"></div>
-
-    <div class="headerText">CERTIFICATIONS</div>
-
-    <a href="#certificates">
-      <div class="certsSmallAll" id="certsSmallAll">
-        <div class="certsSmall">
-          <img
-            width="40%"
-            src="images/certificate-biamp-tesiraforte.jpg"
-            alt="certificate-biamp-tesiraforte.jpg"
-            title="certificate-biamp-tesiraforte.jpg"
-            onclick="showImage('certificate-biamp-tesiraforte.jpg');"
-          />
-        </div>
-
-        <div class="certsSmall">
-          <img
-            width="40%"
-            src="images/certificate-clearone.jpg"
-            alt="certificate-clearone.jpg"
-            title="certificate-clearone.jpg"
-            onclick="showImage('certificate-clearone.jpg');"
-          />
-        </div>
-
-        <div class="certsSmall">
-          <img
-            width="40%"
-            src="images/certificate-qsc-qsys-control-101.jpg"
-            alt="certificate-qsc-qsys-control-101.jpg"
-            title="certificate-qsc-qsys-control-101.jpg"
-            onclick="showImage('certificate-qsc-qsys-control-101.jpg');"
-          />
-        </div>
-
-        <div class="certsSmall">
-          <img
-            width="40%"
-            src="images/certificate-osha-walt-ribeiro-scissor-lift-aerial-safety.jpg"
-            alt="certificate-osha-walt-ribeiro-scissor-lift-aerial-safety.jpg"
-            title="certificate-osha-walt-ribeiro-scissor-lift-aerial-safety.jpg"
-            onclick="showImage('certificate-osha-walt-ribeiro-scissor-lift-aerial-safety.jpg');"
-          />
-        </div>
-
-        <div class="certsSmall">
-          <img
-            width="40%"
-            src="images/certificate-comptia-aplus.jpg"
-            alt="certificate-comptia-aplus.jpg"
-            title="certificate-comptia-aplus.jpg"
-            onclick="showImage('certificate-comptia-aplus.jpg');"
-          />
-        </div>
-
-        <div class="certsSmall">
-          <img
-            width="40%"
-            src="images/certificate-udemy-automate-the-boring-stuff.jpg"
-            alt="certificate-udemy-automate-the-boring-stuff.jpg"
-            title="certificate-udemy-automate-the-boring-stuff.jpg"
-            onclick="showImage('certificate-udemy-automate-the-boring-stuff.jpg');"
-          />
-        </div>
-
-        <div class="certsSmall">
-          <img
-            width="40%"
-            src="images/certificate-biamp-tesiraforte.jpg"
-            alt="certificate-biamp-tesiraforte.jpg"
-            title="certificate-biamp-tesiraforte.jpg"
-            onclick="showImage('certificate-biamp-tesiraforte.jpg');"
-          />
-        </div>
-        
-        <div class="certsSmall">
-          <img
-            width="40%"
-            src="images/certificate-osha-walt-ribeiro-scissor-lift-aerial-safety.jpg"
-            alt="certificate-osha-walt-ribeiro-scissor-lift-aerial-safety.jpg"
-            title="certificate-osha-walt-ribeiro-scissor-lift-aerial-safety.jpg"
-            onclick="showImage('certificate-osha-walt-ribeiro-scissor-lift-aerial-safety.jpg');"
-          />
-        </div>
-
-        <div class="certsSmall">
-          <img
-            width="40%"
-            src="images/certificate-biamp-voip.jpg"
-            alt="certificate-biamp-voip.jpg"
-            title="certificate-biamp-voip.jpg"
-            onclick="showImage('certificate-biamp-voip.jpg');"
-          />
-        </div>
-
-        <div class="certsSmall">
-          <img
-            width="40%"
-            src="images/certificate-qsc-qsys-video-101.jpg"
-            alt="certificate-qsc-qsys-video-101.jpg"
-            title="certificate-qsc-qsys-video-101.jpg"
-            onclick="showImage('certificate-qsc-qsys-video-101.jpg');"
-          />
-        </div>
-
-        <div class="certsSmall">
-          <img
-            width="40%"
-            src="images/certificate-audinate-dante-level-3.jpg"
-            alt="certificate-audinate-dante-level-3.jpg"
-            title="certificate-audinate-dante-level-3.jpg"
-            onclick="showImage('certificate-audinate-dante-level-3.jpg');"
-          />
-        </div>
-      </div>
-    </a>
-<!-------------- Big image -------------->
-    <center>
-      <div class="certsBigAll" style="background-color:white">
-        <div class="certsBig" id="certsBig">
-          <img
-            width="85%"
-            id="bigImg"
-            src="images/certificate-biamp-tesiraforte.jpg"
-            alt="certificate-biamp-tesiraforte.jpg"
-            title="certificate-biamp-tesiraforte.jpg"
-          />
-        </div>
-      </div>
-    </center>
-
-    <div class="headerText" id="resume">RESUME</div>
-
-    <div class="headerText3">
-      <a
-        target="_blank"
-        href="https://waltribeiro.github.io/resume/images/walt-ribeiro-resume-full-stack-developer-january-2020.pdf"
-      >
-        PDF download - Click here</a
-      >
-    </div>
-
-    <div class="resumeAll">
-      <div class="resumeItem">
-        <img
-          width="85%"
-          height="85%"
-          src="images/walt-ribeiro-resume-full-stack-developer-january-2020.png"
-        />
-      </div>
-    </div>
-
-    <!-- <div style="text-align:center">
-       I have 4,000 points on Treehouse
-    <br>
-    <img
-      width="128px"
-      src="https://achievement-images.teamtreehouse.com/badges-js-gulp-stage2.png"
-    >
-    <img
-      width="128px"
-      src="https://achievement-images.teamtreehouse.com/badges_JavaScript_npmbasics_Stage3.png"
-    >
-    <img
-      width="128px"
-      src="https://achievement-images.teamtreehouse.com/badges_JavaScript_MEANapp_Stage1.png"
-    >
-
-    </div>
--->
-    <div class="headerText" id="other">OTHER</div>
-
-    <div class="otherAll">
-      <div class="otherItemDescription">
-        <p>
-          I was on the team that installed the Art Museum's audio system, touch
-          panels, speaker, nd video projectors for thei "Designs For Differnet
-          Futures' Exhibit"
-        </p>
-      </div>
-
-      <div class="otherItem">
-        <img
-          width="700px"
-          src="images/walt-ribeiro-additional-documents-1.png"
-        />
-      </div>
-
-      <br />
-
-      <div class="otherItemDescription">
-        <p>
-          I was on the team that installed the Art Museum's audio system, touch
-          panels, speaker, nd video projectors for thei "Designs For Differnet
-          Futures' Exhibit"
-        </p>
-      </div>
-
-      <div class="otherItem">
-        <img
-          width="700px"
-          src="images/walt-ribeiro-additional-documents-2.png"
-        />
-      </div>
-
-      <br />
-
-      <div class="otherItemDescription">
-        <p>
-          I was on the team that installed the Art Museum's audio system, touch
-          panels, speaker, nd video projectors for thei "Designs For Differnet
-          Futures' Exhibit"
-        </p>
-      </div>
-
-      <div class="otherItem">
-        <img
-          width="700px"
-          src="images/walt-ribeiro-additional-documents-3.png"
-        />
-      </div>
-
-      <br />
-    </div>
-
-    <p id="contact"></p>
-    <p class="headerText">CONTACT</p>
-
+    <!-- Portfolio Modal 2 -->
     <div
-      class="headerText3"
-      style="background-color:rgb(0, 0, 0);font-size:20px;padding:20px 20px 20px 20px"
+      class="portfolio-modal modal fade"
+      id="portfolioModal2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="portfolioModal2Label"
+      aria-hidden="true"
     >
-      <p>
-        My email is <a href="mailto:w@waltrib.com">w@waltrib.com</a>
-      </p>
-    </div>
-
-    <!-- <div>
-
-///////// Formspree contact form
-
-<main>
-<form class="contact-form" action="https://formspree.io/xjvygozq" method="post">
-    <input type="text" name="name" placeholder="full name">
-    <input type="text" name="mail" placeholder="your e-name">
-    <input type="text" name="subject" placeholder="Subject">
-   <textarea name="message" placeholder="Message"></textarea>
-   <button type="submit" name="submit">send mail</button>
-</form>
-</main>
-</div>  -->
-
-    <div class="contactFormAll">
-      <div class="contactForm">
-        <form
-          class="contact-form"
-          action="https://formspree.io/xjvygozq"
-          method="post"
-        >
-          <input type="text" id="name" name="name" placeholder="Name" />
-
-          <input
-            type="text"
-            id="email"
-            name="email"
-            placeholder="Email address"
-          />
-
-          <textarea
-            id="message"
-            name="message"
-            placeholder="Your message"
-            style="height:200px"
-          ></textarea>
-
-          <input style="margin:auto" type="submit" value="Submit" />
-        </form>
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title -->
+                  <h2
+                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                  >
+                    Computer Science 101
+                  </h2>
+                  <br />
+                  <!-- Icon Divider -->
+                  <!-- <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div> -->
+                  <!-- Portfolio Modal - Image -->
+                  <img
+                    class="img-fluid rounded mb-5"
+                    src="img/certifications/certificate-udemy-computer-science-101-master-the-theory-behind-programming.jpg"
+                    alt=""
+                  />
+                  <!-- Portfolio Modal - Text -->
+                  <p class="mb-5"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <script src="script.js"></script>
-
-    <div>
-      <footer>
-        Designed and coded by Walt Ribeiro
-      </footer>
+    <!-- Portfolio Modal 3 -->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="portfolioModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title -->
+                  <h2
+                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                  >
+                    Qsys Control 101
+                  </h2>
+                  <br />
+                  <!-- Icon Divider -->
+                  <!-- <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div> -->
+                  <!-- Portfolio Modal - Image -->
+                  <img
+                    class="img-fluid rounded mb-5"
+                    src="img/certifications/certificate-qsc-qsys-control-101.jpg"
+                    alt=""
+                  />
+                  <!-- Portfolio Modal - Text -->
+                  <p class="mb-5"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="portfolioModal4Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title -->
+                  <h5
+                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                  >
+                    Pro Audio Specialist
+                  </h5>
+                  <br />
+                  <!-- Icon Divider -->
+                  <!-- <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div> -->
+                  <!-- Portfolio Modal - Image -->
+                  <img
+                    class="img-fluid rounded mb-5"
+                    src="img/certifications/certificate-clearone-pro-audio-specialist.jpg"
+                    alt=""
+                  />
+                  <!-- Portfolio Modal - Text -->
+                  <p class="mb-5"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal5"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="portfolioModal5Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title -->
+                  <h2
+                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                  >
+                    Audinate Dante
+                  </h2>
+                  <br />
+                  <!-- Icon Divider -->
+                  <!-- <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div> -->
+                  <!-- Portfolio Modal - Image -->
+                  <img
+                    class="img-fluid rounded mb-5"
+                    src="img/certifications/certificate-audinate-dante-level-3.jpg"
+                    alt=""
+                  />
+                  <!-- Portfolio Modal - Text -->
+                  <p class="mb-5"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal6"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="portfolioModal6Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title -->
+                  <h4 class="portfolio-modal-title text-secondary text-uppercase mb-0">
+                    Responsive Web Design
+                  </h4>
+                  <br>
+                  <!-- Icon Divider -->
+                  <!-- <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div> -->
+                  <!-- Portfolio Modal - Image -->
+                  <img
+                    class="img-fluid rounded mb-5"
+                    src="img/certifications/certificate-freecodecamp-responsive-web-design.png"
+                    alt=""
+                  />
+                  <!-- Portfolio Modal - Text -->
+                  <p class="mb-5"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.min.js"></script>
   </body>
 </html>
