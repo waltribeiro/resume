@@ -1,3 +1,9 @@
+<!--
+     1.) why are buttons are 1 pixel off on iPad?
+     2.) which 4 header icons should I keep?
+     3.) why are the portfolio-modal links bigger on iPad than on desktop?
+--> 
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -199,16 +205,16 @@
               target="_blank"
               href="https://github.com/phlask/phlask-map"
             >
-              <i class="fas fa-info mr-2"></i>
+              <i class="fas fa-code mr-2"></i>
               Github
             </a>
             <a
               class="btn btn-lg btn-outline-light"
               target="_blank"
-              href="http://github.com/waltribeiro"
+              href="https://phlask.me/find-water/"
             >
-              <i class="fas fa-code mr-2"></i>
-              Code
+              <i class="fas fa-play mr-2"></i>
+              Demo
             </a>
           </div>
         </div>
@@ -232,17 +238,33 @@
               target="_blank"
               href="http://github.com/waltribeiro"
             >
-              <i class="fas fa-info mr-2"></i>
+              <i class="fas fa-code mr-2"></i>
               Github
             </a>
-            <a
-              class="btn btn-lg btn-outline-light"
-              target="_blank"
-              href="http://github.com/waltribeiro"
-            >
-              <i class="fas fa-code mr-2"></i>
-              Code
-            </a>
+ 
+            
+
+            <!-- Portfolio Item 1 -->
+
+              <div
+                class="btn btn-lg btn-outline-light portfolio-item mx-auto"
+                data-toggle="modal"
+                data-target="#portfolioModal8"
+              >
+                <div
+                  class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                >
+                  <div
+                    class="portfolio-item-caption-content text-center text-white"
+                  >
+                  <i class="fas fa-play mr-2"></i>
+                  Demo
+
+                  </div>
+                </div>
+
+            </div>
+                              
           </div>
         </div>
 
@@ -380,8 +402,7 @@
         <div class="row">
 
 
-
-          <!-- Portfolio Item 1 -->
+          <!-- Portfolio Item 6 -->
           <div class="col-md-6 col-lg-4">
             <div
               class="portfolio-item mx-auto"
@@ -405,7 +426,7 @@
 
 
 
-          <!-- Portfolio Item 2 -->
+          <!-- Portfolio Item 1 -->
           <div class="col-md-6 col-lg-4">
             <div
               class="portfolio-item mx-auto"
@@ -433,7 +454,7 @@
             </div>
           </div>
 
-          <!-- Portfolio Item 3 -->
+          <!-- Portfolio Item 2 -->
           <div class="col-md-6 col-lg-4">
             <div
               class="portfolio-item mx-auto"
@@ -674,13 +695,77 @@
 
     <!-- Portfolio Modals -->
 
-    <!-- Portfolio Modal 1 -->
+
+
+
+        <!-- Portfolio Modal 1 -->
+        <div
+        class="portfolio-modal modal fade"
+        id="portfolioModal1"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="portfolioModal1Label"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">
+                <i class="fas fa-times"></i>
+              </span>
+            </button>
+            <div class="modal-body text-center">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                    <!-- Portfolio Modal - Title -->
+                    <h2
+                      class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                    >
+                      Python Automation
+                    </h2>
+                    <br />
+                    <!-- Icon Divider -->
+                    <!-- <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div> -->
+                    <!-- Portfolio Modal - Image -->
+                    <img
+                      class="img-fluid rounded mb-5"
+                      src="img/certifications/certificate-udemy-automate-the-boring-stuff.jpg"
+                      alt=""
+                    />
+  
+  
+                    <!-- Portfolio Modal - Text -->
+                    <p class="lead">[<a href="https://www.udemy.com/certificate/UC-LOPTHEJL/" target="_blank">link</a>]</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    <!-- Portfolio Modal 8 Piano -->
     <div
       class="portfolio-modal modal fade"
-      id="portfolioModal1"
+      id="portfolioModal8"
       tabindex="-1"
       role="dialog"
-      aria-labelledby="portfolioModal1Label"
+      aria-labelledby="portfolioModal8Label"
       aria-hidden="true"
     >
       <div class="modal-dialog modal-xl" role="document">
@@ -703,7 +788,7 @@
                   <h2
                     class="portfolio-modal-title text-secondary text-uppercase mb-0"
                   >
-                    Python Automation
+                    Javascript Piano
                   </h2>
                   <br />
                   <!-- Icon Divider -->
@@ -715,13 +800,45 @@
                   <div class="divider-custom-line"></div>
                 </div> -->
                   <!-- Portfolio Modal - Image -->
-                  <img
+                  <!-- <img
                     class="img-fluid rounded mb-5"
                     src="img/certifications/certificate-udemy-automate-the-boring-stuff.jpg"
                     alt=""
-                  />
+                  /> -->
+
+                  <div class="piano">
+                    <div data-note="c" class="key white"></div>
+                    <div data-note="d-flat" class="key black"></div>
+                    <div data-note="d" class="key white"></div>
+                    <div data-note="e-flat" class="key black"></div>
+                    <div data-note="e" class="key white"></div>
+                    <div data-note="f" class="key white"></div>
+                    <div data-note="g-flat" class="key black"></div>
+                    <div data-note="g" class="key white"></div>
+                    <div data-note="a-flat" class="key black"></div>
+                    <div data-note="a" class="key white"></div>
+                    <div data-note="b-flat" class="key black"></div>
+                    <div data-note="b" class="key white"></div>
+                  </div>
+                
+                  <audio id="c" src="piano-notes/c.mp3"></audio>
+                  <audio id="d-flat" src="piano-notes/d-flat.mp3"></audio>
+                  <audio id="d" src="piano-notes/d.mp3"></audio>
+                  <audio id="e-flat" src="piano-notes/e-flat.mp3"></audio>
+                  <audio id="e" src="piano-notes/e.mp3"></audio>
+                  <audio id="f" src="piano-notes/f.mp3"></audio>
+                  <audio id="g-flat" src="piano-notes/g-flat.mp3"></audio>
+                  <audio id="g" src="piano-notes/g.mp3"></audio>
+                  <audio id="a-flat" src="piano-notes/a-flat.mp3"></audio>
+                  <audio id="a" src="piano-notes/a.mp3"></audio>
+                  <audio id="b-flat" src="piano-notes/b-flat.mp3"></audio>
+                  <audio id="b" src="piano-notes/b.mp3"></audio>
+
+
+
+
                   <!-- Portfolio Modal - Text -->
-                  <p class="lead">[<a href="https://www.udemy.com/certificate/UC-LOPTHEJL/" target="_blank">link</a>]</p>
+
                 </div>
               </div>
             </div>
@@ -1021,5 +1138,10 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
+
+    <!-- Piano JavaScript -->
+    <link rel="stylesheet" href="css/piano.css">
+    <script src="js/piano.js"></script>
+
   </body>
 </html>
