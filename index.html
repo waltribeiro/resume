@@ -1,7 +1,9 @@
 <!--
-     1.) why are buttons are 1 pixel off on iPad?
+     1.) why are the buttons 1 pixel off on the iPad?
      2.) which 4 header icons should I keep?
      3.) why are the portfolio-modal links bigger on iPad than on desktop?
+     4.) help me with this piano DOM
+     5.) 
 --> 
 
 <!DOCTYPE html>
@@ -157,9 +159,6 @@
             <i class="fas fa-database fa-4x mr-1"></i>
           </li>
 
-          <li class="list-inline-item">
-            <i class="fab fa-docker fa-5x mr-1"></i>
-          </li>
         </ul>
       </div>
     </section>
@@ -191,13 +190,12 @@
             />
           </div>
           <div class="col-lg-10 mr-auto">
+            <h4>Phlask</h4>
             <p class="lead">
-              • Phlask is a volunteer project that locates the water
+              • A volunteer project that locates the water
               fountains in Philadelphia
-            </p>
-            <p class="lead">
-              • Implemented React, SQL, and Google's RestAPI to build mobile
-              search bar
+<br>
+              • Built using React, SQL, and Google's RestAPI
             </p>
 
             <a
@@ -223,16 +221,17 @@
           <div class="col-lg-2 ml-auto">
             <img
               width="150px"
-              src="img/portfolio/cake-square.png"
+              src="img/portfolio/circus-square.png"
               class="rounded-circle"
             />
           </div>
           <div class="col-lg-10 mr-auto">
-            <p class="lead">• Built a piano using Javascript</p>
-            <p class="lead">
-              • Phlask is a crowdsourced map that locates the water
-              fountains in Philadelphia
-            </p>
+            <h4>Dog Bark Piano</h4>
+              <p class="lead">
+                • A playable piano made of dog barks
+                <br>
+                • Built using Javascript and CSS
+                </p>
             <a
               class="btn btn-lg btn-outline-light"
               target="_blank"
@@ -788,7 +787,7 @@
                   <h2
                     class="portfolio-modal-title text-secondary text-uppercase mb-0"
                   >
-                    Javascript Piano
+                  Dog Bark Piano
                   </h2>
                   <br />
                   <!-- Icon Divider -->
@@ -821,20 +820,38 @@
                     <div data-note="b" class="key white"></div>
                   </div>
                 
-                  <audio id="c" src="piano-notes/c.mp3"></audio>
-                  <audio id="d-flat" src="piano-notes/d-flat.mp3"></audio>
-                  <audio id="d" src="piano-notes/d.mp3"></audio>
-                  <audio id="e-flat" src="piano-notes/e-flat.mp3"></audio>
-                  <audio id="e" src="piano-notes/e.mp3"></audio>
-                  <audio id="f" src="piano-notes/f.mp3"></audio>
-                  <audio id="g-flat" src="piano-notes/g-flat.mp3"></audio>
-                  <audio id="g" src="piano-notes/g.mp3"></audio>
-                  <audio id="a-flat" src="piano-notes/a-flat.mp3"></audio>
-                  <audio id="a" src="piano-notes/a.mp3"></audio>
-                  <audio id="b-flat" src="piano-notes/b-flat.mp3"></audio>
-                  <audio id="b" src="piano-notes/b.mp3"></audio>
+                  <audio id="c" src="notes/dogbark-c.mp3"></audio>
+                  <audio id="d-flat" src="notes/dogbark-d-flat.mp3"></audio>
+                  <audio id="d" src="notes/dogbark-d.mp3"></audio>
+                  <audio id="e-flat" src="notes/dogbark-e-flat.mp3"></audio>
+                  <audio id="e" src="notes/dogbark-e.mp3"></audio>
+                  <audio id="f" src="notes/dogbark-f.mp3"></audio>
+                  <audio id="g-flat" src="notes/dogbark-g-flat.mp3"></audio>
+                  <audio id="g" src="notes/dogbark-g.mp3"></audio>
+                  <audio id="a-flat" src="notes/dogbark-a-flat.mp3"></audio>
+                  <audio id="a" src="notes/dogbark-a.mp3"></audio>
+                  <audio id="b-flat" src="notes/dogbark-b-flat.mp3"></audio>
+                  <audio id="b" src="notes/dogbark-b.mp3"></audio>
+<br>
+                  <img src="img/portfolio/circus-square.png" style="float:left" width="340px">
+                 
+                 
+                 
+                  <p id="myP">I am a paragraph.</p>
+
+                  <p>Click the button get the HTML content of the p element.</p>
+                  
+                  <button onclick="myFunction()">Try it</button>
+                  
+                  <p id="demo"></p>
 
 
+<!-- could I do
+    addEventListener("click", function) onclick="data-note">
+    function () => {
+
+    }
+-->
 
 
                   <!-- Portfolio Modal - Text -->
