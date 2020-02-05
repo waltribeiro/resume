@@ -33,18 +33,10 @@ function playNote(key) {
 }
 
 function displayNoteLetter (keyDiv) {
-  
-
-
+  document.getElementById("musicLetter").innerHTML = "data-note";
 }
 
 
-
-// this is the dog piano function
-function myFunction() {
-  var x = document.getElementById("myP").innerHTML;
-  document.getElementById("demo").innerHTML = x;
-}
 
 // build an array of all possible values
 // match the dfata attributes from the HTML

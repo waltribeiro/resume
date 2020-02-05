@@ -1,3 +1,8 @@
+.fontPiano {
+  font-size: 200px;
+}
+
+
 .piano {
   display: flex;
 }
