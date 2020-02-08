@@ -39,6 +39,7 @@
 
     <!-- Theme CSS -->
     <link href="css/freelancer.css" rel="stylesheet" />
+
   </head>
 
   <body id="page-top">
@@ -140,7 +141,7 @@
       </div>
     </header>
 
-    <section class="page-section bg-info text-white mb-0" id="skills">
+    <!-- <section class="page-section bg-info text-white mb-0" id="skills">
       <div class="container d-flex align-items-center flex-column">
         <ul class="list-inline justify-content-center">
           <li class="list-inline-item">
@@ -161,7 +162,7 @@
 
         </ul>
       </div>
-    </section>
+    </section> -->
 
     <!-- About Section -->
     <section class="page-section bg-secondary text-white mb-0" id="projects">
@@ -169,104 +170,70 @@
         <!-- About Section Heading -->
         <h2 class="page-section-heading text-center text-white">PROJECTS</h2>
         <br />
-        <!-- Icon Divider -->
-        <!-- <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div> -->
+
 
   
 
         <!-- About Section Content -->
-        <div class="row">
-          <div class="col-lg-2 ml-auto" id="app1">
-            <img
-              width="150px"
-              src="img/portfolio/cabin-square.png"
-              class="rounded-circle"
-            />
-          </div>
-          <div class="col-lg-10 mr-auto">
-            <h4>Phlask</h4>
-            <p class="lead">
-              • A volunteer project that locates the water
-              fountains in Philadelphia
-<br>
-              • Built using React, SQL, and Google's RestAPI
-            </p>
-
-            <a
-              class="btn btn-lg btn-outline-light"
-              target="_blank"
-              href="https://github.com/phlask/phlask-map"
-            >
-              <i class="fas fa-code mr-2"></i>
-              Github
-            </a>
-            <a
-              class="btn btn-lg btn-outline-light"
-              target="_blank"
-              href="https://phlask.me/find-water/"
-            >
-              <i class="fas fa-play mr-2"></i>
-              Demo
-            </a>
-          </div>
-        </div>
-        <br /><br /><br />
-        <div class="row">
-          <div class="col-lg-2 ml-auto" id="app2">
-            <img
-              width="150px"
-              src="img/portfolio/cake-square.png"
-              class="rounded-circle"
-            />
-          </div>
-          <div class="col-lg-10 mr-auto">
-            <h4>Piano</h4>
-              <p class="lead">
-                • A playable piano
-                <br>
-                • Built using Javascript and CSS
-                </p>
-            <a
-              class="btn btn-lg btn-outline-light"
-              target="_blank"
-              href="http://github.com/waltribeiro"
-            >
-              <i class="fas fa-code mr-2"></i>
-              Github
-            </a>      
-
-            <!-- Portfolio Item 1 -->
-
-              <div
-                class="btn btn-lg btn-outline-light portfolio-item mx-auto"
-                data-toggle="modal"
-                data-target="#portfolioModal8"
-              >
-                <div
-                  class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-                >
-                  <div
-                    class="portfolio-item-caption-content text-center text-white"
-                  >
-                  <i class="fas fa-play mr-2"></i>
-                  Demo
-
+        <div class="container">
+          <div class="card-deck">
+            <!-- <div class="w-100 d-none d-sm-block d-md-none"> -->
+              <div class="card mb-4">
+                  <img class="card-img-top img-fluid" src="img/portfolio/safe-250.png" alt="Card image cap">
+                  <div class="card-body">
+                      <h4 class="card-title text-secondary">Phlask Web Map</h4>
+                      <p class="card-text text-secondary">A progressive web app that locates all the water fountains in Philadelphia</p>
+                        <p class="card-text text-secondary text-center">
+                          <strong>React • SQL • Google Map API</strong>
+                        <br>
+                        <p class="card-text d-flex ">
+                        <a href="https://github.com/phlask/phlask-map" class="btn btn-secondary" style="width:50%" target="_blank"><i class="fas fa-code mr-2"></i>Github</a>
+                        <a href="http://phlask.me/find-water" class="btn btn-secondary" style="width:50%"><i class="fas fa-play mr-2"></i>Demo</a>
+                      </p>
                   </div>
-                </div>
+              </div>
 
+              <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="img/portfolio/cake-250.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title text-secondary">Playable Piano</h4>
+                    <p class="card-text text-secondary">An in-browser piano you can play on desktop or mobile</p>
+                      <p class="card-text text-secondary text-center">
+                        <strong>React • SQL • Google Map API</strong>
+                      <br>
+                      <p class="card-text d-flex ">
+                      <a href="https://github.com/waltribeiro/javascript-personal-02-piano" class="btn btn-secondary" style="width:50%" target="_blank"><i class="fas fa-code mr-2"></i>Github</a>
+                      <a class="btn btn-secondary" style="width:50%" data-toggle="modal" data-target="#portfolioModal8"><i class="fas fa-play mr-2"></i>Demo</a>
+                    </p>
+                </div>
             </div>
+
+            <div class="card mb-4">
+              <img class="card-img-top img-fluid" src="img/portfolio/submarine-250.png" alt="Card image cap">
+              <div class="card-body">
+                  <h4 class="card-title text-secondary">Password Generator</h4>
+                  <p class="card-text text-secondary">Get a secure password between 8-128 characters in length</p>
+                    <p class="card-text text-secondary text-center">
+                      <strong>React • SQL • Google Map API</strong>
+                    <br>
+                    <p class="card-text d-flex ">
+                    <a href="https://github.com/waltribeiro/password-generator" class="btn btn-secondary" style="width:50%" target="_blank"><i class="fas fa-code mr-2"></i>Github</a>
+                    <a class="btn btn-secondary" style="width:50%" data-toggle="modal" data-target="#portfolioModal9"><i class="fas fa-play mr-2"></i>Demo</a>
+                  </p>
+              </div>
+          </div>
+ 
+
                               
           </div>
         </div>
         
       </div>
     </section>
+
+
+
+
 
     <!-- About Section -->
     <section class="page-section bg-info text-white mb-0" id="experience">
@@ -882,6 +849,100 @@
       </div>
     </div>
 
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Portfolio Modal 9 -->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal9"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="portfolioModal9Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+
+ 
+
+
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title -->
+                  <h2
+                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                  >
+                    Password Generator
+                  </h2>
+                  <br />
+
+                  <!-- Portfolio Modal - Image -->
+
+                  <div class="password-wrapper">
+
+                    <div class="password-card">
+
+
+              <!-- <link href="password-generator/style.css" rel="stylesheet" ></link> -->
+              
+              
+                      <div class="password-card-body">
+                        <textarea
+                          readonly
+                          id="password"
+                          placeholder="Your Secure Password"
+                          aria-label="Generated Password"
+                        ></textarea>
+                      </div>
+                      <div class="password-card-footer">
+                        <button id="generate" class="password-btn">Click Here to Generate Password</button>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  
+                  <!-- Portfolio Modal - Text -->
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
     <!-- Portfolio Modal 2 -->
     <div
       class="portfolio-modal modal fade"
@@ -933,6 +994,8 @@
       </div>
     </div>
 
+
+
     <!-- Portfolio Modal 3 -->
     <div
       class="portfolio-modal modal fade"
@@ -981,6 +1044,8 @@
         </div>
       </div>
     </div>
+
+
 
     <!-- Portfolio Modal 4 -->
     <div
@@ -1031,6 +1096,8 @@
       </div>
     </div>
 
+
+
     <!-- Portfolio Modal 5 -->
     <div
       class="portfolio-modal modal fade"
@@ -1079,6 +1146,8 @@
         </div>
       </div>
     </div>
+
+
 
     <!-- Portfolio Modal 6 -->
     <div
@@ -1129,6 +1198,8 @@
       </div>
     </div>
 
+
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -1146,6 +1217,9 @@
     <!-- Piano JavaScript -->
     <link rel="stylesheet" href="css/piano.css">
     <script src="js/piano.js"></script>
+
+    <!-- Password Generator -->
+    <script src="password-generator/script.js"></script>
 
   </body>
 </html>
