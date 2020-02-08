@@ -4423,8 +4423,8 @@ input[type="button"].btn-block {
 
 .card-img-top {
   width: 100%;
-  border-top-left-radius: calc(0.5rem - 0.125rem);
-  border-top-right-radius: calc(0.5rem - 0.125rem);
+  /*border-top-left-radius: calc(0.5rem - 0.125rem);*/
+  /*border-top-right-radius: calc(0.5rem - 0.125rem);*/
 }
 
 .card-img-bottom {
