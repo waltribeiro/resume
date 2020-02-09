@@ -1,6 +1,7 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 var passwordText = document.querySelector("#password");
+var generateAfterText = document.querySelector("#afterText");
 
 // don't use an array, use strings here instead
 var uppercase = "ABCDEFGHIJKLMNOPQRSTUVXYZ";
@@ -52,3 +53,4 @@ function myButton() {
 }
 
 generateBtn.addEventListener("click", myButton)
+var newContent = document.createTextNode("Hello!"); 

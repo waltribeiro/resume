@@ -4731,7 +4731,7 @@ a.badge-primary:focus, a.badge-primary.focus {
 .badge-secondary {
   color: #fff;
   background-color: #2c3e50;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 a.badge-secondary:hover, a.badge-secondary:focus {
