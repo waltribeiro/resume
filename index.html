@@ -130,7 +130,11 @@
 
         <!-- Masthead Heading -->
         <h2 class="masthead-heading mb-0" style="padding-top:20px">
-          <span class="badge badge-secondary">&nbsp;w@waltrib.com&nbsp;</span>
+          <a href="mailto:w@waltrib.com">
+            <span class="badge badge-secondary" style="text-decoration:none">
+              &nbsp;w@waltrib.com&nbsp;
+            </a>
+            </span>
           <span class="badge badge-secondary">&nbsp;(240) 487-9258&nbsp;</span>
           <span class="badge badge-secondary">&nbsp;Philadelphia&nbsp;</span>
         </h2>
@@ -1089,18 +1093,18 @@
                   /> -->
 
                   <div class="piano">
-                    <div data-note="c" class="key white"></div>
-                    <div data-note="d-flat" class="key black"></div>
-                    <div data-note="d" class="key white"></div>
-                    <div data-note="e-flat" class="key black"></div>
-                    <div data-note="e" class="key white"></div>
-                    <div data-note="f" class="key white"></div>
-                    <div data-note="g-flat" class="key black"></div>
-                    <div data-note="g" class="key white"></div>
-                    <div data-note="a-flat" class="key black"></div>
-                    <div data-note="a" class="key white"></div>
-                    <div data-note="b-flat" class="key black"></div>
-                    <div data-note="b" class="key white"></div>
+                    <div id="note-c" data-note="c" class="key white"></div>
+                    <div id="note-d-flat" data-note="d-flat" class="key black"></div>
+                    <div id="note-d" data-note="d" class="key white"></div>
+                    <div id="note-e-flat" data-note="e-flat" class="key black"></div>
+                    <div id="note-e" data-note="e" class="key white"></div>
+                    <div id="note-f" data-note="f" class="key white"></div>
+                    <div id="note-g-flat" data-note="g-flat" class="key black"></div>
+                    <div id="note-g" data-note="g" class="key white"></div>
+                    <div id="note-a-flat" data-note="a-flat" class="key black"></div>
+                    <div id="note-a" data-note="a" class="key white"></div>
+                    <div id="note-b-flat" data-note="b-flat" class="key black"></div>
+                    <div id="note-b" data-note="b" class="key white"></div>
                   </div>
                 
                   <audio id="c" src="notes/piano-c.mp3"></audio>
@@ -1118,9 +1122,8 @@
 <br>
                   <!-- <img src="img/portfolio/circus-square.png" style="float:left" width="30%"> -->
                  
-                 
-                 
-<p id="demo" class="fontPiano">C</p>
+
+<p id="demo" class="fontPiano"></p>
 
 
 <!-- could I do
@@ -1560,7 +1563,8 @@
     <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/freelancer.min.js"></script>
+    <!-- <script src="js/freelancer.min.js"></script> -->
+    <script src="js/freelancer.js"></script>
 
     <!-- Piano JavaScript -->
     <link rel="stylesheet" href="css/piano.css">
