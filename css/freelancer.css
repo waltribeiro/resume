@@ -9988,3 +9988,15 @@ form .row:first-child .floating-label-form-group {
 .noDecoration, a:link, a:visited {
   text-decoration: none;
 }
+
+.zoom {
+  transition: transform .3s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05); 
+}
+

@@ -47,3 +47,72 @@ function displayNoteLetter (keyDiv) {
 // then it's the correct note}
 
 //domains and range in pus and oouts
+
+
+
+
+
+
+$(document).ready(function() {
+
+  // VARIABLES
+  // ====================================================================
+  // Here we create variables for tracking the number of sandwiches eaten
+  // ...
+
+  // FUNCTIONS
+  // ====================================================================
+  // Here we create various on "click" functions which capture the clicks
+  // Inside each click event is the code to create an alert, update the counter, then show the updated count.
+  // ...
+  $("#note-c").click(function() {
+    $("#demo").text("C");
+  });
+
+  // ...
+  $("#note-d-flat").click(function() {
+    $("#demo").text("Db");
+  });
+
+  $("#note-d").click(function() {
+    $("#demo").text("D");
+  });
+
+  $("#note-e-flat").click(function() {
+    $("#demo").text("Eb");
+  });
+  
+  $("#note-e").click(function() {
+    $("#demo").text("E");
+  });
+
+  $("#note-f").click(function() {
+    $("#demo").text("F");
+  });
+
+  $("#note-g-flat").click(function() {
+    $("#demo").text("Gb");
+  });
+
+  $("#note-g").click(function() {
+    $("#demo").text("G");
+  });
+
+  $("#note-a-flat").click(function() {
+    $("#demo").text("Ab");
+  });
+
+
+  $("#note-a").click(function() {
+    $("#demo").text("A");
+  });
+
+  $("#note-b-flat").click(function() {
+    $("#demo").text("Bb");
+  });
+
+  $("#note-b").click(function() {
+    $("#demo").text("B");
+  });
+
+});
