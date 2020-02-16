@@ -77,6 +77,6 @@ function checkPass() {
     if (promptInput === chosenWord) {
         window.location.replace("http://linkedin.waltrib.com");
     } else {
-        alert("Incorrect password!")
+        alert("Incorrect password")
     }
 }
