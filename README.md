@@ -1,15 +1,18 @@
 # Website
 Walt Ribeiro's Website
 
+## Purpose
+The purpose of this is to create a portfolio of all my projects
+- Web APIs
+- Javascript
+- Python Scripts
+- JQuery
+- C++
+- Front End Web Design
+
 ## Want to add something new or develop/report a fix for a bug you found?
-See the [Contribution Guide](contributing.md) to learn about our branching strategy and issue reporting etiquette, and more!
+Contact me on twitter http://twitter.com/waltribeiro
 
-## Goals
-The technical goals for this project are:
-- Use a Progressive Web App (PWA) approach (via ReactJS) to create a playable piano
+Contact me on email w@waltrib.com 
 
-### Javascript Piano
-
-* this project uses Bootstrap modals to keep the user natively on my website
-
-![Music](img/portfolio/cake-square.png)
+![Music](img/portfolio/250-browser-2.png)
