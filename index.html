@@ -1140,12 +1140,14 @@
     aria-hidden="true"
     >
       <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content" id="killYoutube" onclick="killYoutubeFunction()">
+        <div class="modal-content">
           <button
+            id="killYoutubeButton"
             type="button"
             class="close"
             data-dismiss="modal"
-            aria-label="Close">
+            aria-label="Close"
+            onclick="killYoutubeFunction()">
             <span aria-hidden="true">
               <i class="fas fa-times"></i>
             </span>
@@ -1166,17 +1168,18 @@
 <!-- Portfolio Modal - Image -->
 
                   <iframe
-                  id="youtubeVideo"
+                  class="killYoutubeClass" 
+                  id="killYoutubeVideo"
                   width="560"
                   height="315"
                   src="https://www.youtube.com/embed/pkWJdli1mD8"
                   frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allow="accelerometer; encrypted-media;"
                   allowfullscreen
                   >
                   </iframe>
                     <p class="lead">
-                    The frequency changes depending on the light sensor's input
+                    The frequencydz,fjhsb changes depending on the light sensor's input
                     </p>
 
 <!-- Portfolio Modal - Text -->
