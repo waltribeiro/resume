@@ -30,3 +30,24 @@ $('#killYoutubeButton').click(function(e) {
   
     }
   };
+
+
+
+
+
+  // d3.selectAll("p").html("<h1>This is new inner html.</h1>");
+
+//   const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
+
+//   const w = 500;
+//   const h = 500;
+
+//   const svg = d3.select("#walt")
+//                 .append("svg")
+//                 .attr("width", w)
+//                 .attr("height", h)
+// .append("rect")
+// .attr("x", 0)
+//         .attr("y", 0)
+//         .attr("width", 445)
+//         .attr("height", 400);
