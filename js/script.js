@@ -8,7 +8,11 @@
 // function killYoutubeFunction() {  
 //     document.getElementById('youtubeVideo').contentWindow.location.reload();
 //   }
-  
+
+
+lazyload();
+
+
 $('#killYoutubeButton').click(function(e) {
   e.preventDefault();
   $('.col-lg-8').children('iframe').attr('src', $('.col-lg-8').children('iframe').attr('src'));
