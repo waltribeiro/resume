@@ -121,6 +121,18 @@ h4 {
   padding: 1.25rem 1.25rem 1.25rem 1.25rem;
 }
 
+.btnEffect {
+  padding-left: 10px;
+}
+
+.btnEffect:hover {
+  background-color: lightblue;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+
+
 @media (min-width: 768px) {
   .card-body-school {
     flex: 1 1 auto;
