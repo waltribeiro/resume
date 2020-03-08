@@ -13,11 +13,15 @@
 lazyload();
 
 
-$('#killYoutubeButton').click(function(e) {
-  e.preventDefault();
-  console.log($('.iframeContainer').children('iframe').attr('src'))
 
-  $('.iframeContainer').children('iframe').attr('src', $('.iframeContainer').children('iframe').attr('src'));
+
+$("body").click(function() {
+    // $(".iframeContainer").on("click", function(e) {
+    //    e.stopPropagation(); //stopping propagation here
+  if ($(".modal").is(":visible")) {
+    event.preventDefault();
+    $('.iframeContainer').children('iframe').attr('src', $('.iframeContainer').children('iframe').attr('src'));
+  }
 });
 
   // Password checker for private work
