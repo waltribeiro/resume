@@ -15,14 +15,13 @@ lazyload();
 
 
 
-$("body").click(function() {
-    // $(".iframeContainer").on("click", function(e) {
-    //    e.stopPropagation(); //stopping propagation here
-  if ($(".modal").is(":visible")) {
-    event.preventDefault();
-    $('.iframeContainer').children('iframe').attr('src', $('.iframeContainer').children('iframe').attr('src'));
-  }
+$(function() {
+    $('#killYoutubeButton').click(function() {      
+        $('iframe').attr('src', $('iframe').attr('src'));
+    });
 });
+
+
 
   // Password checker for private work
   var chosenWord = "art";
