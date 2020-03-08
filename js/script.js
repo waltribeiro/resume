@@ -15,9 +15,10 @@ lazyload();
 
 $('#killYoutubeButton').click(function(e) {
   e.preventDefault();
-  $('.col-lg-8').children('iframe').attr('src', $('.col-lg-8').children('iframe').attr('src'));
-});
+  console.log($('.iframeContainer').children('iframe').attr('src'))
 
+  $('.iframeContainer').children('iframe').attr('src', $('.iframeContainer').children('iframe').attr('src'));
+});
 
   // Password checker for private work
   var chosenWord = "art";
