@@ -1,7 +1,39 @@
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# Other files and folders
+.settings/
 node_modules
+package-lock.json
+*.code-workspace
+.DS_Store
+.env
+# cmproj
+# *.cmproj
+# cmproj
+# cmproj/
+# cmproj/*
+# trec
+# *.trec
+# trec
+# recordings/*
+# recordings/
+# browser-phlask.cmproj
+# screencast-videos/
+# screencast-videos/*
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
 *.pxm
 *.mp4
-.*
-.DS_Store
-.travis.yml
-.browserslistrc
+*.mov
+
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.

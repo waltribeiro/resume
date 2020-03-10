@@ -131,6 +131,22 @@ h4 {
   padding-left: 10px;
 }
 
+.gifs-rows .gif-file {
+  display:none;
+}
+
+.imgTemplate {
+  position:absolute;
+  z-index: 3;
+}
+
+.imgBrowser {
+  position:absolute;
+  z-index: 2;
+}
+
+
+
 
 
 @media (min-width: 768px) {

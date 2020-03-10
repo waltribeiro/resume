@@ -14,6 +14,11 @@ lazyload();
 
 
 
+// $("img", ".gifs-rows").hover(function() {
+//   $('.preset-file').toggle();
+//   $('.gif-file').toggle();
+// });
+
 
 $(function() {
     $('#killYoutubeButton').click(function() {      
