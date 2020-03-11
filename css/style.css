@@ -145,13 +145,13 @@ h4 {
   z-index: 2;
 }
 
-.preset-file {
+/* .preset-file {
   z-index: 2;
 }
 
 .gif-file {
   z-index: 1;
-}
+} */
 
 @media (max-device-width: 768px) {
   .gifs-rows .preset-file {
