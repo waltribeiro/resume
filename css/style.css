@@ -145,11 +145,23 @@ h4 {
   z-index: 2;
 }
 
+.preset-file {
+  z-index: 2;
+}
 
+.gif-file {
+  z-index: 1;
+}
 
+@media (max-device-width: 768px) {
+  .gifs-rows .preset-file {
+    display: none;
+  }
 
+  .gifs-rows .gif-file {
+    display: block;
+  }
 
-@media (min-width: 768px) {
   .card-body-school {
     flex: 1 1 auto;
     padding: 1.25rem 1.25rem 1.25rem 0rem;

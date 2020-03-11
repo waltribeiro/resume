@@ -13,11 +13,10 @@
 lazyload();
 
 
-
-// $("img", ".gifs-rows").hover(function() {
-//   $('.preset-file').toggle();
-//   $('.gif-file').toggle();
-// });
+$(".card").hover(function() {
+  $(this).find('.preset-file').toggle();
+  $(this).find('.gif-file').toggle();
+});
 
 
 $(function() {

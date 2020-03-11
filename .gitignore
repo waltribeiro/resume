@@ -11,19 +11,6 @@ package-lock.json
 *.code-workspace
 .DS_Store
 .env
-# cmproj
-# *.cmproj
-# cmproj
-# cmproj/
-# cmproj/*
-# trec
-# *.trec
-# trec
-# recordings/*
-# recordings/
-# browser-phlask.cmproj
-# screencast-videos/
-# screencast-videos/*
 
 # Executables
 *.swf
