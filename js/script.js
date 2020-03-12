@@ -13,9 +13,16 @@
 lazyload();
 
 
-$(".card").hover(function() {
-  $(this).find('.preset-file').toggle();
-  $(this).find('.gif-file').toggle();
+$(document).ready(function() {
+  $(".zoom").mouseenter(function() {
+    $(this).find('.preset-file').hide();
+    $(this).find('.gif-file').show();
+  });
+
+  $(".zoom").mouseleave(function() {
+    $(this).find('.preset-file').show();
+    $(this).find('.gif-file').hide();
+  });
 });
 
 

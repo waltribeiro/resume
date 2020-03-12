@@ -131,10 +131,6 @@ h4 {
   padding-left: 10px;
 }
 
-.gifs-rows .gif-file {
-  display:none;
-}
-
 .imgTemplate {
   position:absolute;
   z-index: 3;
@@ -153,11 +149,15 @@ h4 {
   z-index: 1;
 } */
 
+.gifs-rows .gif-file {
+  display:none;
+}
+
 @media (max-device-width: 768px) {
   .gifs-rows .preset-file {
     display: none;
   }
-
+ 
   .gifs-rows .gif-file {
     display: block;
   }
