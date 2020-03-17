@@ -196,6 +196,7 @@ figcaption {
           transition-duration: 400ms;
   -webkit-transition-timing-function: ease-out;
           transition-timing-function: ease-out;
+
 }
 .image-wrapper img {
   -webkit-transform: perspective(400px) rotateX(5deg);
@@ -208,6 +209,7 @@ figcaption {
           transition-duration: 400ms;
   -webkit-transition-timing-function: ease;
           transition-timing-function: ease;
+
 }
 
 .image-wrapper-2 {
@@ -257,12 +259,9 @@ figcaption {
           transform: perspective(0) rotateX(0);
 }
 
-.b-lazys {
-  max-width: 100%;
-}
-
 .b-lazy {
   max-width: 100%;
+  animation: rotation 1.5s  linear;
 }
 
 /* transition */
@@ -295,16 +294,15 @@ border: 3px solid #000000;
 
 .gradientText {
   /* -webkit-text-stroke-width: 3px; */
-  -webkit-text-stroke-color: rgb(0, 0, 0);
+  -webkit-text-stroke-color: #2C3E51;
   font-family: 'Source Code Pro', monospace;
   font-size: 4rem;
   font-weight: 700;
+  /* background: -webkit-linear-gradient(#2C3E51, #2C3E51); */
   background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-
 
 
 

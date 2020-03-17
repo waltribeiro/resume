@@ -76,6 +76,7 @@ $(document).ready(function() {
   
 });
 
+
 $(document).ready(function() {
   // scrollmagic
   var controller = new ScrollMagic.Controller();
@@ -87,6 +88,8 @@ $(document).ready(function() {
     })
       .setClassToggle(this, "zap-2")
       .addTo(controller);
+
+  
       
   });
   scene = scene.destroy();
