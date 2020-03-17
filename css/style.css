@@ -286,6 +286,23 @@ figcaption {
   color: #1abc9c;
 }
 
+.imageBorder {
+border: 3px solid #000000;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+
+.gradientText {
+  /* -webkit-text-stroke-width: 3px; */
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  font-family: 'Source Code Pro', monospace;
+  font-size: 4rem;
+  font-weight: 700;
+  background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 
 
