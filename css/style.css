@@ -323,6 +323,10 @@ border: 3px solid #000000;
     flex: 1 1 auto;
     padding: 1.25rem 1.25rem 1.25rem 0rem;
   }
+  
+  .gradientText {
+    font-size: 2rem;
+  }
 }
 
 
