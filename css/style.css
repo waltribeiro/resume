@@ -108,6 +108,11 @@ h4 {
   height:0;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
 .iframeContainer iframe {
   position: absolute;
   top: 0;
